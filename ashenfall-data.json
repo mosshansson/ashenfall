@@ -1,0 +1,5418 @@
+{
+ "recipes": [
+  {
+   "n": "Adventurer's Longbow",
+   "pl": 2,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     16,
+     "Ash Logs"
+    ],
+    [
+     6,
+     "Flax"
+    ]
+   ]
+  },
+  {
+   "n": "Ash Battlestaff",
+   "pl": 2,
+   "st": "Crafting Table",
+   "cat": "Magic",
+   "kind": "Weapon",
+   "mats": [
+    [
+     12,
+     "Ash Logs"
+    ],
+    [
+     6,
+     "Rune Essence"
+    ],
+    [
+     2,
+     "Flax"
+    ]
+   ]
+  },
+  {
+   "n": "Ash Shortbow",
+   "pl": 2,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     12,
+     "Ash Logs"
+    ],
+    [
+     3,
+     "Flax"
+    ]
+   ]
+  },
+  {
+   "n": "Bronze Crossbow",
+   "pl": 3,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     12,
+     "Oak Logs"
+    ],
+    [
+     6,
+     "Fleece"
+    ],
+    [
+     1,
+     "Bronze Crossbow Limbs"
+    ],
+    [
+     1,
+     "Opal"
+    ]
+   ]
+  },
+  {
+   "n": "Bronze Dagger",
+   "pl": 3,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     3,
+     "Small Animal Fangs"
+    ],
+    [
+     6,
+     "Bronze Bar"
+    ],
+    [
+     1,
+     "Fleece"
+    ]
+   ]
+  },
+  {
+   "n": "Bronze Greatsword",
+   "pl": 3,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     10,
+     "Bronze Bar"
+    ],
+    [
+     4,
+     "Animal Hide"
+    ],
+    [
+     2,
+     "Fleece"
+    ]
+   ]
+  },
+  {
+   "n": "Bronze Sword",
+   "pl": 3,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     4,
+     "Animal Hide"
+    ],
+    [
+     8,
+     "Bronze Bar"
+    ],
+    [
+     1,
+     "Fleece"
+    ]
+   ]
+  },
+  {
+   "n": "Crystal Bow",
+   "pl": 3,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     18,
+     "Opal"
+    ],
+    [
+     8,
+     "Vault Shard"
+    ],
+    [
+     4,
+     "Anima-Infused Bark"
+    ],
+    [
+     4,
+     "Fleece"
+    ],
+    [
+     4,
+     "Bronze Bar"
+    ],
+    [
+     1,
+     "Vault Core"
+    ]
+   ],
+   "note": "Four bars, from the source figure of 6 copper and 6 tin at two bars per craft. Recipe comes from Heartstrings in Ghornfell."
+  },
+  {
+   "n": "Oak Battlestaff",
+   "pl": 3,
+   "st": "Mystic Forge",
+   "cat": "Magic",
+   "kind": "Weapon",
+   "mats": [
+    [
+     12,
+     "Oak Logs"
+    ],
+    [
+     6,
+     "Anima-Infused Bark"
+    ],
+    [
+     3,
+     "Fleece"
+    ]
+   ]
+  },
+  {
+   "n": "Oak Longbow",
+   "pl": 3,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     12,
+     "Oak Logs"
+    ],
+    [
+     6,
+     "Fleece"
+    ],
+    [
+     2,
+     "Opal"
+    ],
+    [
+     2,
+     "Bronze Bar"
+    ]
+   ]
+  },
+  {
+   "n": "Oak Shortbow",
+   "pl": 3,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     8,
+     "Oak Logs"
+    ],
+    [
+     3,
+     "Fleece"
+    ],
+    [
+     1,
+     "Opal"
+    ],
+    [
+     1,
+     "Bronze Bar"
+    ]
+   ]
+  },
+  {
+   "n": "Wild Scout's Shortbow",
+   "pl": 3,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     10,
+     "Oak Logs"
+    ],
+    [
+     2,
+     "Antler"
+    ],
+    [
+     2,
+     "Dwellberry"
+    ],
+    [
+     2,
+     "Fleece"
+    ]
+   ]
+  },
+  {
+   "n": "Abyssal Whip",
+   "pl": 4,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     12,
+     "Swamp Weed"
+    ],
+    [
+     12,
+     "Vault Shard"
+    ],
+    [
+     12,
+     "Hard Leather"
+    ],
+    [
+     6,
+     "Poison Ichor"
+    ],
+    [
+     1,
+     "Abyssal Spine"
+    ],
+    [
+     1,
+     "Vault Core"
+    ]
+   ]
+  },
+  {
+   "n": "Blightwood Longbow",
+   "pl": 4,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     12,
+     "Blightwood"
+    ],
+    [
+     6,
+     "Swamp Weed"
+    ],
+    [
+     4,
+     "Jade"
+    ],
+    [
+     4,
+     "Vault Shard"
+    ],
+    [
+     4,
+     "Iron Bar"
+    ]
+   ]
+  },
+  {
+   "n": "Blightwood Shortbow",
+   "pl": 4,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     8,
+     "Blightwood"
+    ],
+    [
+     4,
+     "Vault Shard"
+    ],
+    [
+     3,
+     "Swamp Weed"
+    ],
+    [
+     1,
+     "Jade"
+    ],
+    [
+     1,
+     "Iron Bar"
+    ]
+   ]
+  },
+  {
+   "n": "Blurite Crossbow",
+   "pl": 4,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     12,
+     "Blightwood"
+    ],
+    [
+     6,
+     "Swamp Weed"
+    ],
+    [
+     4,
+     "Vault Shard"
+    ],
+    [
+     1,
+     "Blurite Crossbow Limbs"
+    ],
+    [
+     1,
+     "Jade"
+    ]
+   ]
+  },
+  {
+   "n": "Dorgeshuun Crossbow",
+   "pl": 4,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     12,
+     "Willow Logs"
+    ],
+    [
+     6,
+     "Swamp Weed"
+    ],
+    [
+     4,
+     "Vault Shard"
+    ],
+    [
+     1,
+     "Bone Crossbow Limbs"
+    ],
+    [
+     1,
+     "Jade"
+    ]
+   ]
+  },
+  {
+   "n": "Hunter Stagbow",
+   "pl": 4,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     18,
+     "Antler"
+    ],
+    [
+     6,
+     "Ram Horn"
+    ],
+    [
+     4,
+     "Jade"
+    ],
+    [
+     4,
+     "Swamp Weed"
+    ],
+    [
+     4,
+     "Vault Shard"
+    ]
+   ]
+  },
+  {
+   "n": "Iron Crossbow",
+   "pl": 4,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     12,
+     "Blightwood"
+    ],
+    [
+     6,
+     "Swamp Weed"
+    ],
+    [
+     4,
+     "Vault Shard"
+    ],
+    [
+     1,
+     "Iron Crossbow Limbs"
+    ],
+    [
+     1,
+     "Jade"
+    ]
+   ]
+  },
+  {
+   "n": "Iron Dagger",
+   "pl": 4,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     6,
+     "Iron Bar"
+    ],
+    [
+     4,
+     "Vault Shard"
+    ],
+    [
+     3,
+     "Ram Horn"
+    ],
+    [
+     1,
+     "Fleece"
+    ]
+   ]
+  },
+  {
+   "n": "Iron Greatsword",
+   "pl": 4,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     10,
+     "Iron Bar"
+    ],
+    [
+     4,
+     "Vault Shard"
+    ],
+    [
+     4,
+     "Hard Leather"
+    ],
+    [
+     2,
+     "Fleece"
+    ]
+   ]
+  },
+  {
+   "n": "Iron Sword",
+   "pl": 4,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     8,
+     "Iron Bar"
+    ],
+    [
+     4,
+     "Vault Shard"
+    ],
+    [
+     4,
+     "Hard Leather"
+    ],
+    [
+     1,
+     "Fleece"
+    ]
+   ]
+  },
+  {
+   "n": "Steel Crossbow",
+   "pl": 4,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     24,
+     "Corpse Cotton"
+    ],
+    [
+     16,
+     "Willow Logs"
+    ],
+    [
+     6,
+     "Vault Shard"
+    ],
+    [
+     2,
+     "Jade"
+    ],
+    [
+     1,
+     "Steel Crossbow Limbs"
+    ]
+   ]
+  },
+  {
+   "n": "Blightwood Battlestaff",
+   "pl": 5,
+   "st": "Mystic Forge",
+   "cat": "Magic",
+   "kind": "Weapon",
+   "mats": [
+    [
+     12,
+     "Blightwood"
+    ],
+    [
+     6,
+     "Wild Anima"
+    ],
+    [
+     4,
+     "Vault Shard"
+    ],
+    [
+     3,
+     "Swamp Weed"
+    ]
+   ]
+  },
+  {
+   "n": "Shadow Sword",
+   "pl": 5,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     64,
+     "Soul Fragments"
+    ],
+    [
+     16,
+     "Corpse Cotton"
+    ],
+    [
+     6,
+     "Vault Shard"
+    ],
+    [
+     5,
+     "Dragonwolf Hide"
+    ]
+   ]
+  },
+  {
+   "n": "Splitbark Staff",
+   "pl": 5,
+   "st": "Mystic Forge",
+   "cat": "Magic",
+   "kind": "Weapon",
+   "mats": [
+    [
+     16,
+     "Corpse Cotton"
+    ],
+    [
+     16,
+     "Hollow Bark"
+    ],
+    [
+     6,
+     "Sacred Oil"
+    ],
+    [
+     6,
+     "Vault Shard"
+    ]
+   ]
+  },
+  {
+   "n": "Steel Dagger",
+   "pl": 5,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     12,
+     "Corpse Cotton"
+    ],
+    [
+     8,
+     "Steel Bar"
+    ],
+    [
+     6,
+     "Vault Shard"
+    ],
+    [
+     4,
+     "Undead Bone"
+    ]
+   ]
+  },
+  {
+   "n": "Steel Greatsword",
+   "pl": 5,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     16,
+     "Corpse Cotton"
+    ],
+    [
+     12,
+     "Steel Bar"
+    ],
+    [
+     6,
+     "Vault Shard"
+    ],
+    [
+     5,
+     "Dragonwolf Hide"
+    ]
+   ]
+  },
+  {
+   "n": "Steel Sword",
+   "pl": 5,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     12,
+     "Corpse Cotton"
+    ],
+    [
+     10,
+     "Steel Bar"
+    ],
+    [
+     6,
+     "Vault Shard"
+    ],
+    [
+     5,
+     "Dragonwolf Hide"
+    ]
+   ]
+  },
+  {
+   "n": "Ulv's Longbow",
+   "pl": 5,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     32,
+     "Corpse Cotton"
+    ],
+    [
+     12,
+     "Dwellberry"
+    ],
+    [
+     12,
+     "Willow Logs"
+    ],
+    [
+     10,
+     "Animal Bone"
+    ],
+    [
+     2,
+     "Green Dragon Hide"
+    ]
+   ]
+  },
+  {
+   "n": "Undead Ranger's Bow",
+   "pl": 5,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     16,
+     "Corpse Cotton"
+    ],
+    [
+     16,
+     "Undead Bone"
+    ],
+    [
+     6,
+     "Vault Shard"
+    ],
+    [
+     2,
+     "Sapphire"
+    ],
+    [
+     2,
+     "Steel Bar"
+    ]
+   ]
+  },
+  {
+   "n": "Willow Longbow",
+   "pl": 5,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     32,
+     "Corpse Cotton"
+    ],
+    [
+     16,
+     "Willow Logs"
+    ],
+    [
+     6,
+     "Vault Shard"
+    ],
+    [
+     4,
+     "Sapphire"
+    ],
+    [
+     4,
+     "Steel Bar"
+    ]
+   ]
+  },
+  {
+   "n": "Willow Shortbow",
+   "pl": 5,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     16,
+     "Corpse Cotton"
+    ],
+    [
+     10,
+     "Willow Logs"
+    ],
+    [
+     6,
+     "Vault Shard"
+    ],
+    [
+     2,
+     "Sapphire"
+    ],
+    [
+     2,
+     "Steel Bar"
+    ]
+   ]
+  },
+  {
+   "n": "Black Sword",
+   "pl": 6,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     60,
+     "Black Metal Scraps"
+    ],
+    [
+     30,
+     "Coal"
+    ],
+    [
+     16,
+     "Mystic Fibres"
+    ],
+    [
+     10,
+     "Draconic Leather"
+    ],
+    [
+     5,
+     "Cursed Essence"
+    ],
+    [
+     2,
+     "Demonic Oil"
+    ]
+   ]
+  },
+  {
+   "n": "Mithril Dagger",
+   "pl": 6,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     18,
+     "Infernal Fragments"
+    ],
+    [
+     12,
+     "Mystic Fibres"
+    ],
+    [
+     8,
+     "Mithril Bar"
+    ],
+    [
+     6,
+     "Draconic Leather"
+    ],
+    [
+     3,
+     "Cursed Essence"
+    ]
+   ]
+  },
+  {
+   "n": "Mithril Greatsword",
+   "pl": 6,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     32,
+     "Infernal Fragments"
+    ],
+    [
+     16,
+     "Mystic Fibres"
+    ],
+    [
+     12,
+     "Mithril Bar"
+    ],
+    [
+     10,
+     "Draconic Leather"
+    ],
+    [
+     5,
+     "Cursed Essence"
+    ]
+   ]
+  },
+  {
+   "n": "Mithril Scimitar",
+   "pl": 6,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     16,
+     "Infernal Fragments"
+    ],
+    [
+     10,
+     "Draconic Leather"
+    ],
+    [
+     10,
+     "Mithril Bar"
+    ],
+    [
+     5,
+     "Cursed Essence"
+    ],
+    [
+     3,
+     "Mystic Thread"
+    ]
+   ]
+  },
+  {
+   "n": "Mithril Sword",
+   "pl": 6,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     18,
+     "Infernal Fragments"
+    ],
+    [
+     12,
+     "Mystic Fibres"
+    ],
+    [
+     10,
+     "Draconic Leather"
+    ],
+    [
+     10,
+     "Mithril Bar"
+    ],
+    [
+     5,
+     "Cursed Essence"
+    ]
+   ]
+  },
+  {
+   "n": "Necromancer's Staff",
+   "pl": 6,
+   "st": "Mystic Forge",
+   "cat": "Magic",
+   "kind": "Weapon",
+   "mats": [
+    [
+     24,
+     "Undead Bone"
+    ],
+    [
+     16,
+     "Corpse Cotton"
+    ],
+    [
+     6,
+     "Sacred Oil"
+    ],
+    [
+     6,
+     "Vault Shard"
+    ]
+   ]
+  },
+  {
+   "n": "Adamant Crossbow",
+   "pl": 7,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     18,
+     "Desert Weed"
+    ],
+    [
+     16,
+     "Yew Logs"
+    ],
+    [
+     6,
+     "Ground Gypsum"
+    ],
+    [
+     2,
+     "Acrid Adhesive"
+    ],
+    [
+     2,
+     "Dihydrogen Monoxide"
+    ],
+    [
+     1,
+     "Adamant Crossbow Limbs"
+    ],
+    [
+     1,
+     "Dragonstone"
+    ]
+   ]
+  },
+  {
+   "n": "Adamant Sword",
+   "pl": 7,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     10,
+     "Kalphite Shell"
+    ],
+    [
+     10,
+     "Adamant Bar"
+    ],
+    [
+     9,
+     "Desert Weed"
+    ],
+    [
+     7,
+     "Acrid Adhesive"
+    ],
+    [
+     6,
+     "Ground Gypsum"
+    ],
+    [
+     5,
+     "Draconic Leather"
+    ],
+    [
+     2,
+     "Dihydrogen Monoxide"
+    ]
+   ]
+  },
+  {
+   "n": "Bow of Elidinis",
+   "pl": 7,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     24,
+     "Desert Weed"
+    ],
+    [
+     12,
+     "Ground Gypsum"
+    ],
+    [
+     12,
+     "Gold Bar"
+    ],
+    [
+     12,
+     "Silver Bar"
+    ],
+    [
+     4,
+     "Acrid Adhesive"
+    ],
+    [
+     4,
+     "Dihydrogen Monoxide"
+    ],
+    [
+     4,
+     "Dragonstone"
+    ]
+   ]
+  },
+  {
+   "n": "Master's Staff",
+   "pl": 7,
+   "st": "Mystic Forge",
+   "cat": "Magic",
+   "kind": "Weapon",
+   "mats": [
+    [
+     54,
+     "Ground Obsidian"
+    ],
+    [
+     36,
+     "Shimmerscale Powder"
+    ],
+    [
+     16,
+     "Yew Logs"
+    ],
+    [
+     12,
+     "Ground Gypsum"
+    ],
+    [
+     4,
+     "Acrid Adhesive"
+    ],
+    [
+     4,
+     "Desert Cloth"
+    ],
+    [
+     4,
+     "Dihydrogen Monoxide"
+    ],
+    [
+     4,
+     "Dragonstone"
+    ]
+   ]
+  },
+  {
+   "n": "Pharaoh's Sceptre",
+   "pl": 7,
+   "st": "Mystic Forge",
+   "cat": "Magic",
+   "kind": "Weapon",
+   "mats": [
+    [
+     20,
+     "Kalphite Shell"
+    ],
+    [
+     16,
+     "Kalphite Wing"
+    ],
+    [
+     14,
+     "Acrid Adhesive"
+    ],
+    [
+     12,
+     "Ground Gypsum"
+    ],
+    [
+     10,
+     "Draconic Leather"
+    ],
+    [
+     10,
+     "Gold Bar"
+    ],
+    [
+     4,
+     "Dihydrogen Monoxide"
+    ],
+    [
+     4,
+     "Dragonstone"
+    ]
+   ]
+  },
+  {
+   "n": "Toktz-Mej-Tal",
+   "pl": 7,
+   "st": "Mystic Forge",
+   "cat": "Magic",
+   "kind": "Weapon",
+   "mats": [
+    [
+     198,
+     "Ground Obsidian"
+    ],
+    [
+     4,
+     "Dragonstone"
+    ]
+   ]
+  },
+  {
+   "n": "Toktz-Xil-Ak",
+   "pl": 7,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     90,
+     "Ground Obsidian"
+    ],
+    [
+     10,
+     "Kalphite Shell"
+    ],
+    [
+     9,
+     "Desert Weed"
+    ],
+    [
+     5,
+     "Acrid Adhesive"
+    ],
+    [
+     5,
+     "Draconic Leather"
+    ]
+   ]
+  },
+  {
+   "n": "Yew Longbow",
+   "pl": 7,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     24,
+     "Desert Weed"
+    ],
+    [
+     16,
+     "Yew Logs"
+    ],
+    [
+     12,
+     "Ground Gypsum"
+    ],
+    [
+     4,
+     "Acrid Adhesive"
+    ],
+    [
+     4,
+     "Dihydrogen Monoxide"
+    ],
+    [
+     4,
+     "Dragonstone"
+    ],
+    [
+     4,
+     "Adamant Bar"
+    ]
+   ]
+  },
+  {
+   "n": "Yew Shortbow",
+   "pl": 7,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     12,
+     "Desert Weed"
+    ],
+    [
+     10,
+     "Yew Logs"
+    ],
+    [
+     6,
+     "Ground Gypsum"
+    ],
+    [
+     2,
+     "Acrid Adhesive"
+    ],
+    [
+     2,
+     "Dihydrogen Monoxide"
+    ],
+    [
+     2,
+     "Dragonstone"
+    ],
+    [
+     2,
+     "Adamant Bar"
+    ]
+   ]
+  },
+  {
+   "n": "Bronze Bar",
+   "pl": 3,
+   "st": "Furnace",
+   "cat": "Processing",
+   "kind": "Bar",
+   "mats": [
+    [
+     3,
+     "Copper Ore"
+    ],
+    [
+     3,
+     "Tin Ore"
+    ]
+   ],
+   "out": 2
+  },
+  {
+   "n": "Iron Bar",
+   "pl": 4,
+   "st": "Furnace",
+   "cat": "Processing",
+   "kind": "Bar",
+   "mats": [
+    [
+     3,
+     "Iron Ore"
+    ]
+   ]
+  },
+  {
+   "n": "Steel Bar",
+   "pl": 5,
+   "st": "Blast Furnace",
+   "cat": "Processing",
+   "kind": "Bar",
+   "mats": [
+    [
+     3,
+     "Iron Ore"
+    ],
+    [
+     3,
+     "Coal"
+    ]
+   ]
+  },
+  {
+   "n": "Mithril Bar",
+   "pl": 6,
+   "st": "Blast Furnace",
+   "cat": "Processing",
+   "kind": "Bar",
+   "mats": [
+    [
+     3,
+     "Mithril Ore"
+    ],
+    [
+     3,
+     "Coal"
+    ]
+   ]
+  },
+  {
+   "n": "Adamant Bar",
+   "pl": 7,
+   "st": "Blast Furnace",
+   "cat": "Processing",
+   "kind": "Bar",
+   "mats": [
+    [
+     3,
+     "Adamantite Ore"
+    ],
+    [
+     3,
+     "Coal"
+    ]
+   ]
+  },
+  {
+   "n": "Leather",
+   "pl": 0,
+   "st": "Tannery",
+   "cat": "Component",
+   "kind": "Leather",
+   "mats": [
+    [
+     1,
+     "Animal Hide"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      1,
+      "Animal Hide Scraps"
+     ]
+    ]
+   ]
+  },
+  {
+   "n": "Gold Bar",
+   "pl": 0,
+   "st": "Furnace",
+   "cat": "Component",
+   "kind": "Bar",
+   "mats": [
+    [
+     3,
+     "Gold Ore"
+    ]
+   ]
+  },
+  {
+   "n": "Adamant Crossbow Limbs",
+   "pl": 7,
+   "st": "Blacksmith's Bench",
+   "cat": "Component",
+   "kind": "Limbs",
+   "mats": [
+    [
+     2,
+     "Adamant Bar"
+    ]
+   ]
+  },
+  {
+   "n": "Bronze Crossbow Limbs",
+   "pl": 3,
+   "st": "Blacksmith's Bench",
+   "cat": "Component",
+   "kind": "Limbs",
+   "mats": [],
+   "note": "The adamant limbs take 2 bars, so this is likely 2 bronze bars — not sourced, so check the bench."
+  },
+  {
+   "n": "Iron Crossbow Limbs",
+   "pl": 4,
+   "st": "Blacksmith's Bench",
+   "cat": "Component",
+   "kind": "Limbs",
+   "mats": [],
+   "note": "Quantity not sourced — likely 2 iron bars by the adamant pattern."
+  },
+  {
+   "n": "Steel Crossbow Limbs",
+   "pl": 4,
+   "st": "Blacksmith's Bench",
+   "cat": "Component",
+   "kind": "Limbs",
+   "mats": [],
+   "note": "Quantity not sourced."
+  },
+  {
+   "n": "Blurite Crossbow Limbs",
+   "pl": 4,
+   "st": "Blacksmith's Bench",
+   "cat": "Component",
+   "kind": "Limbs",
+   "mats": [],
+   "note": "Made from blurite ore. Quantity not sourced."
+  },
+  {
+   "n": "Bone Crossbow Limbs",
+   "pl": 4,
+   "st": "Blacksmith's Bench",
+   "cat": "Component",
+   "kind": "Limbs",
+   "mats": [],
+   "note": "Made from bone rather than metal. Quantity not sourced."
+  },
+  {
+   "n": "Hard Leather",
+   "pl": 0,
+   "st": "Tannery",
+   "cat": "Component",
+   "kind": "Leather",
+   "mats": [
+    [
+     2,
+     "Leather"
+    ],
+    [
+     1,
+     "Adhesive"
+    ]
+   ]
+  },
+  {
+   "n": "Dire Wolf Leather",
+   "pl": 4,
+   "st": "Tannery",
+   "cat": "Component",
+   "kind": "Leather",
+   "mats": [],
+   "note": "Tanned from dire wolf hide. Quantities not sourced — check the wiki."
+  },
+  {
+   "n": "Draconic Leather",
+   "pl": 5,
+   "st": "Tannery",
+   "cat": "Component",
+   "kind": "Leather",
+   "mats": [
+    [
+     1,
+     "Dragonwolf Hide"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      1,
+      "Dragon Blood"
+     ],
+     [
+      3,
+      "Hard Leather"
+     ]
+    ]
+   ],
+   "note": "The wiki's recipe tree shows hide alone; a hard-leather-and-dragon-blood route is also reported."
+  },
+  {
+   "n": "Cursed Leather",
+   "pl": 6,
+   "st": "Tannery",
+   "cat": "Component",
+   "kind": "Leather",
+   "mats": [
+    [
+     2,
+     "Draconic Leather"
+    ],
+    [
+     1,
+     "Cursed Essence"
+    ]
+   ]
+  },
+  {
+   "n": "Scorch Leather",
+   "pl": 7,
+   "st": "Advanced Tannery",
+   "cat": "Component",
+   "kind": "Leather · Artisan 40",
+   "mats": [
+    [
+     1,
+     "Draconic Leather"
+    ],
+    [
+     2,
+     "Kalphite Shell"
+    ],
+    [
+     1,
+     "Acrid Adhesive"
+    ]
+   ]
+  },
+  {
+   "n": "Kalphite Shell",
+   "pl": 7,
+   "st": "Tannery",
+   "cat": "Component",
+   "kind": "Shell",
+   "mats": [
+    [
+     3,
+     "Kalphite Shell Fragments"
+    ],
+    [
+     1,
+     "Acrid Adhesive"
+    ]
+   ],
+   "drop": "Kalphite Queen drops them whole."
+  },
+  {
+   "n": "Acrid Adhesive",
+   "pl": 7,
+   "st": "Kiln",
+   "cat": "Component",
+   "kind": "Adhesive",
+   "mats": [
+    [
+     3,
+     "Kalphite Ichor"
+    ]
+   ]
+  },
+  {
+   "n": "Adhesive",
+   "pl": 0,
+   "st": "Kiln",
+   "cat": "Component",
+   "kind": "Adhesive",
+   "mats": [
+    [
+     1,
+     "Swamp Tar"
+    ]
+   ],
+   "note": "One for one. Feeds four things: fuel pellets, hard leather, tanner's kits and weapon barbs."
+  },
+  {
+   "n": "Charcoal",
+   "pl": 0,
+   "st": "Kiln",
+   "cat": "Component",
+   "kind": "Fuel",
+   "mats": [
+    [
+     1,
+     "Ash Logs"
+    ]
+   ],
+   "note": "Any logs work, including the earliest wood. This is what the plain furnace burns."
+  },
+  {
+   "n": "Fuel Pellet",
+   "pl": 0,
+   "st": "Blacksmith's Bench",
+   "cat": "Component",
+   "kind": "Fuel",
+   "mats": [
+    [
+     1,
+     "Charcoal"
+    ],
+    [
+     1,
+     "Adhesive"
+    ],
+    [
+     1,
+     "Coarse Animal Fur"
+    ]
+   ],
+   "note": "The only thing a Blast Furnace will burn — wood, charcoal and coal are all rejected. Unlocks once you pick up coal and build the furnace. Also drops from salvage and Umbral Sands chests."
+  },
+  {
+   "n": "Coarse Thread",
+   "pl": 0,
+   "st": "Spinning Wheel",
+   "cat": "Component",
+   "kind": "Thread",
+   "mats": [
+    [
+     1,
+     "Flax"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      3,
+      "Coarse Animal Fur"
+     ]
+    ]
+   ],
+   "note": "Flax is one-for-one; fur takes three. Flax grows thickly around the starting village and respawns fast."
+  },
+  {
+   "n": "Fine Thread",
+   "pl": 5,
+   "st": "Spinning Wheel",
+   "cat": "Component",
+   "kind": "Thread",
+   "mats": [
+    [
+     4,
+     "Corpse Cotton"
+    ]
+   ]
+  },
+  {
+   "n": "Mystic Thread",
+   "pl": 6,
+   "st": "Spinning Wheel",
+   "cat": "Component",
+   "kind": "Thread",
+   "mats": [],
+   "note": "Spun from mystic fibres. Exact quantity not sourced — check the wiki."
+  },
+  {
+   "n": "Desert Thread",
+   "pl": 7,
+   "st": "Spinning Wheel",
+   "cat": "Component",
+   "kind": "Thread",
+   "mats": [
+    [
+     3,
+     "Desert Weed"
+    ]
+   ]
+  },
+  {
+   "n": "Rough Cloth",
+   "pl": 0,
+   "st": "Loom",
+   "cat": "Component",
+   "kind": "Cloth",
+   "mats": [
+    [
+     3,
+     "Coarse Thread"
+    ]
+   ]
+  },
+  {
+   "n": "Wool Cloth",
+   "pl": 0,
+   "st": "Loom",
+   "cat": "Component",
+   "kind": "Cloth",
+   "mats": [
+    [
+     3,
+     "Wool Thread"
+    ]
+   ]
+  },
+  {
+   "n": "Fine Cloth",
+   "pl": 5,
+   "st": "Loom + Loom Harness",
+   "cat": "Component",
+   "kind": "Cloth",
+   "mats": [
+    [
+     3,
+     "Fine Thread"
+    ],
+    [
+     1,
+     "Gold Bar"
+    ]
+   ],
+   "note": "That is 12 corpse cotton and 3 gold ore once expanded."
+  },
+  {
+   "n": "Mystic Cloth",
+   "pl": 6,
+   "st": "Loom",
+   "cat": "Component",
+   "kind": "Cloth",
+   "mats": [],
+   "note": "Woven on the base loom. Ingredients not sourced — check the wiki."
+  },
+  {
+   "n": "Infinity Cloth",
+   "pl": 7,
+   "st": "Loom + Loom Harness",
+   "cat": "Component",
+   "kind": "Cloth",
+   "mats": [
+    [
+     1,
+     "Desert Cloth"
+    ],
+    [
+     9,
+     "Shimmerscale Powder"
+    ]
+   ]
+  },
+  {
+   "n": "Vis Cloth",
+   "pl": 8,
+   "st": "Loom + Loom Harness",
+   "cat": "Component",
+   "kind": "Cloth · Artisan 20",
+   "mats": [
+    [
+     2,
+     "Vis Fibres"
+    ],
+    [
+     2,
+     "Draconic Vis Wax"
+    ]
+   ],
+   "note": "Cut from 3+3 to 2+2 in the 25 September patch."
+  },
+  {
+   "n": "Vis Fibres",
+   "pl": 8,
+   "st": "Advanced Spinning Wheel",
+   "cat": "Component",
+   "kind": "Thread",
+   "mats": [
+    [
+     3,
+     "Harmonised Compound"
+    ],
+    [
+     3,
+     "Ground Rune Essence"
+    ]
+   ]
+  },
+  {
+   "n": "Draconic Vis Wax",
+   "pl": 8,
+   "st": "Brewing Cauldron",
+   "cat": "Component",
+   "kind": "Wax",
+   "mats": [
+    [
+     3,
+     "Harmonised Compound"
+    ],
+    [
+     3,
+     "Ground Rune Essence"
+    ],
+    [
+     3,
+     "Ground Dragon Tooth"
+    ]
+   ],
+   "note": "The only recipe that consumes Ground Dragon Tooth."
+  },
+  {
+   "n": "Harmonised Compound",
+   "pl": 8,
+   "st": "Kiln",
+   "cat": "Component",
+   "kind": "Compound",
+   "mats": [
+    [
+     1,
+     "Discordant Residue"
+    ]
+   ],
+   "note": "Quantity not sourced. This single material gates vis fibres, the wax and therefore all vis cloth."
+  },
+  {
+   "n": "Black Dragon Leather",
+   "pl": 8,
+   "st": "Advanced Tannery",
+   "cat": "Component",
+   "kind": "Leather",
+   "mats": [
+    [
+     1,
+     "Black Dragon Hide"
+    ],
+    [
+     1,
+     "Dragon Blood"
+    ],
+    [
+     1,
+     "Ground Rune Essence"
+    ]
+   ],
+   "note": "Quantities not sourced. Sits outside the cloth chain — no harmonised compound needed."
+  },
+  {
+   "n": "Ground Rune Essence",
+   "pl": 8,
+   "st": "Grindstone",
+   "cat": "Component",
+   "kind": "Powder",
+   "mats": [
+    [
+     1,
+     "Rune Essence"
+    ]
+   ]
+  },
+  {
+   "n": "Ground Dragon Tooth",
+   "pl": 8,
+   "st": "Grindstone",
+   "cat": "Component",
+   "kind": "Powder",
+   "mats": [
+    [
+     1,
+     "Dragon Tooth"
+    ]
+   ]
+  },
+  {
+   "n": "Rune Bar",
+   "pl": 8,
+   "st": "Blast Furnace",
+   "cat": "Component",
+   "kind": "Bar",
+   "mats": [
+    [
+     3,
+     "Rune Ore"
+    ],
+    [
+     3,
+     "Luminite"
+    ]
+   ],
+   "note": "Luminite takes the place coal holds in the lower bars — it is a second ore, not a fuel."
+  },
+  {
+   "n": "Desert Cloth",
+   "pl": 7,
+   "st": "Loom + Loom Harness",
+   "cat": "Component",
+   "kind": "Cloth",
+   "mats": [
+    [
+     3,
+     "Desert Thread"
+    ],
+    [
+     3,
+     "Cactus Fibres"
+    ]
+   ]
+  },
+  {
+   "n": "Cactus Fibres",
+   "pl": 7,
+   "st": "Tannery",
+   "cat": "Component",
+   "kind": "Fibre",
+   "out": 3,
+   "mats": [
+    [
+     1,
+     "Fibrous Pipe Cactus"
+    ]
+   ],
+   "note": "One cactus yields three fibres."
+  },
+  {
+   "n": "Shimmerscale Powder",
+   "pl": 7,
+   "st": "Grindstone",
+   "cat": "Component",
+   "kind": "Powder",
+   "out": 2,
+   "mats": [
+    [
+     1,
+     "Kalphite Wing"
+    ]
+   ],
+   "note": "One wing grinds into two."
+  },
+  {
+   "n": "Refined Obsidian",
+   "pl": 7,
+   "st": "Blast Furnace",
+   "cat": "Component",
+   "kind": "Obsidian",
+   "mats": [
+    [
+     9,
+     "Ground Obsidian"
+    ]
+   ]
+  },
+  {
+   "n": "Ground Obsidian",
+   "pl": 7,
+   "st": "Grindstone",
+   "cat": "Component",
+   "kind": "Obsidian",
+   "mats": [
+    [
+     1,
+     "Elder Curiosities"
+    ]
+   ]
+  },
+  {
+   "n": "Gypsum Wax",
+   "pl": 7,
+   "st": "Brewing Cauldron",
+   "cat": "Component",
+   "kind": "Wax",
+   "mats": [
+    [
+     3,
+     "Ground Gypsum"
+    ],
+    [
+     1,
+     "Dihydrogen Monoxide"
+    ],
+    [
+     1,
+     "Acrid Adhesive"
+    ]
+   ],
+   "note": "Gated behind Icthlarin's Little Helper and the Umbral Sands merchant quest."
+  },
+  {
+   "n": "Ground Gypsum",
+   "pl": 7,
+   "st": "Grindstone",
+   "cat": "Component",
+   "kind": "Powder",
+   "mats": [
+    [
+     1,
+     "Gypsum"
+    ]
+   ]
+  },
+  {
+   "n": "Molten Glass",
+   "pl": 0,
+   "st": "Blast Furnace",
+   "cat": "Component",
+   "kind": "Glass · Artisan 60",
+   "mats": [
+    [
+     3,
+     "Ground Limestone"
+    ],
+    [
+     3,
+     "Ground Sandstone"
+    ]
+   ],
+   "note": "Blast Furnace, not the Kiln — that catches people out. Also becomes glass panes and decorations, which are building material rather than gear."
+  },
+  {
+   "n": "Glass Vessel",
+   "pl": 0,
+   "st": "Jeweler's Bench",
+   "cat": "Component",
+   "kind": "Glass",
+   "mats": [
+    [
+     1,
+     "Molten Glass"
+    ]
+   ],
+   "note": "The container the higher-tier potions need, and two go into a Maple Wand."
+  },
+  {
+   "n": "Ground Limestone",
+   "pl": 0,
+   "st": "Grindstone",
+   "cat": "Component",
+   "kind": "Powder",
+   "mats": [
+    [
+     1,
+     "Limestone"
+    ]
+   ]
+  },
+  {
+   "n": "Ground Sandstone",
+   "pl": 0,
+   "st": "Grindstone",
+   "cat": "Component",
+   "kind": "Powder",
+   "out": 5,
+   "mats": [
+    [
+     1,
+     "Sandstone"
+    ]
+   ],
+   "note": "One sandstone grinds into five, so this is the cheap half of glass."
+  },
+  {
+   "n": "Ground Granite",
+   "pl": 0,
+   "st": "Grindstone",
+   "cat": "Component",
+   "kind": "Powder",
+   "mats": [
+    [
+     1,
+     "Granite"
+    ]
+   ]
+  },
+  {
+   "n": "Ground Clay",
+   "pl": 0,
+   "st": "Grindstone",
+   "cat": "Component",
+   "kind": "Powder",
+   "mats": [
+    [
+     1,
+     "Clay"
+    ]
+   ]
+  },
+  {
+   "n": "Bag of Flour",
+   "pl": 0,
+   "st": "Grindstone",
+   "cat": "Component",
+   "kind": "Food staple",
+   "mats": [
+    [
+     1,
+     "Wheat"
+    ]
+   ],
+   "note": "One wheat, one bag. Bread is the biggest consumer of it."
+  },
+  {
+   "n": "Blurite Bar",
+   "pl": 4,
+   "st": "Furnace",
+   "cat": "Component",
+   "kind": "Bar",
+   "mats": [],
+   "note": "Smelted from blurite ore. Ratio not sourced — the other plain bars take three ore."
+  },
+  {
+   "n": "Black Metal Bar",
+   "pl": 6,
+   "st": "Blast Furnace",
+   "cat": "Component",
+   "kind": "Bar",
+   "mats": [],
+   "note": "Smelted from black metal scraps. Ratio not sourced."
+  },
+  {
+   "n": "Blue Dragon Leather",
+   "pl": 6,
+   "st": "Advanced Tannery",
+   "cat": "Component",
+   "kind": "Leather",
+   "mats": [],
+   "note": "Tanned from blue dragon scale. Quantities not sourced."
+  },
+  {
+   "n": "Necrotic Bonemeal",
+   "pl": 5,
+   "st": "Grindstone",
+   "cat": "Component",
+   "kind": "Powder",
+   "mats": [],
+   "note": "Ground from undead bone. Quantity not sourced."
+  },
+  {
+   "n": "Fire Oil",
+   "pl": 0,
+   "st": "Brewing Cauldron",
+   "cat": "Component",
+   "kind": "Oil",
+   "mats": [],
+   "note": "Ingredients not sourced."
+  },
+  {
+   "n": "Wool Thread",
+   "pl": 0,
+   "st": "Spinning Wheel",
+   "cat": "Component",
+   "kind": "Thread",
+   "mats": [
+    [
+     3,
+     "Soft Animal Fur"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      1,
+      "Fleece"
+     ]
+    ]
+   ],
+   "note": "The fleece route is usually cheaper."
+  },
+  {
+   "n": "Padded Cloth",
+   "pl": 4,
+   "st": "Loom + Loom Harness",
+   "cat": "Component",
+   "kind": "Cloth",
+   "mats": [
+    [
+     1,
+     "Rough Cloth"
+    ],
+    [
+     1,
+     "Wool Cloth"
+    ]
+   ],
+   "note": "The loom harness must be built and placed near the loom."
+  },
+  {
+   "n": "Bronze Helmet",
+   "pl": 3,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     4,
+     "Bronze Bar"
+    ],
+    [
+     2,
+     "Hard Leather"
+    ],
+    [
+     1,
+     "Fleece"
+    ]
+   ]
+  },
+  {
+   "n": "Bronze Platebody",
+   "pl": 3,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     10,
+     "Bronze Bar"
+    ],
+    [
+     4,
+     "Hard Leather"
+    ],
+    [
+     2,
+     "Fleece"
+    ]
+   ]
+  },
+  {
+   "n": "Bronze Platelegs",
+   "pl": 3,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     6,
+     "Bronze Bar"
+    ],
+    [
+     4,
+     "Fleece"
+    ],
+    [
+     2,
+     "Hard Leather"
+    ]
+   ]
+  },
+  {
+   "n": "Iron Helmet",
+   "pl": 4,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     4,
+     "Iron Bar"
+    ],
+    [
+     4,
+     "Hard Leather"
+    ],
+    [
+     1,
+     "Padded Cloth"
+    ],
+    [
+     1,
+     "Vault Shard"
+    ]
+   ]
+  },
+  {
+   "n": "Iron Platebody",
+   "pl": 4,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     10,
+     "Iron Bar"
+    ],
+    [
+     6,
+     "Hard Leather"
+    ],
+    [
+     3,
+     "Vault Shard"
+    ],
+    [
+     2,
+     "Padded Cloth"
+    ]
+   ]
+  },
+  {
+   "n": "Iron Platelegs",
+   "pl": 4,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     6,
+     "Iron Bar"
+    ],
+    [
+     4,
+     "Hard Leather"
+    ],
+    [
+     3,
+     "Padded Cloth"
+    ],
+    [
+     2,
+     "Vault Shard"
+    ]
+   ]
+  },
+  {
+   "n": "Paladin's Helm",
+   "pl": 4,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     6,
+     "Iron Bar"
+    ],
+    [
+     2,
+     "Hard Leather"
+    ],
+    [
+     1,
+     "Padded Cloth"
+    ],
+    [
+     1,
+     "Vault Shard"
+    ]
+   ]
+  },
+  {
+   "n": "Paladin's Platebody",
+   "pl": 4,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour · recipe from Takla Kara vault",
+   "mats": [
+    [
+     12,
+     "Iron Bar"
+    ],
+    [
+     8,
+     "Hard Leather"
+    ],
+    [
+     3,
+     "Vault Shard"
+    ],
+    [
+     2,
+     "Padded Cloth"
+    ]
+   ]
+  },
+  {
+   "n": "Paladin Platelegs",
+   "pl": 4,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     6,
+     "Iron Bar"
+    ],
+    [
+     6,
+     "Hard Leather"
+    ],
+    [
+     2,
+     "Padded Cloth"
+    ],
+    [
+     2,
+     "Vault Shard"
+    ]
+   ]
+  },
+  {
+   "n": "Adamant Helmet",
+   "pl": 7,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     4,
+     "Adamant Bar"
+    ],
+    [
+     4,
+     "Scorch Leather"
+    ],
+    [
+     1,
+     "Desert Cloth"
+    ],
+    [
+     1,
+     "Refined Obsidian"
+    ],
+    [
+     1,
+     "Gypsum Wax"
+    ],
+    [
+     1,
+     "Garou Weave"
+    ]
+   ]
+  },
+  {
+   "n": "Adamant Med Helm",
+   "pl": 7,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     4,
+     "Adamant Bar"
+    ],
+    [
+     4,
+     "Scorch Leather"
+    ],
+    [
+     1,
+     "Desert Cloth"
+    ],
+    [
+     1,
+     "Refined Obsidian"
+    ],
+    [
+     1,
+     "Gypsum Wax"
+    ],
+    [
+     1,
+     "Garou Weave"
+    ]
+   ],
+   "note": "Same cost as the full helm, but the recipe only comes with the Deluxe Edition."
+  },
+  {
+   "n": "Adamant Platebody",
+   "pl": 7,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     10,
+     "Adamant Bar"
+    ],
+    [
+     8,
+     "Scorch Leather"
+    ],
+    [
+     3,
+     "Desert Cloth"
+    ],
+    [
+     3,
+     "Refined Obsidian"
+    ],
+    [
+     3,
+     "Gypsum Wax"
+    ],
+    [
+     3,
+     "Garou Weave"
+    ]
+   ]
+  },
+  {
+   "n": "Adamant Platelegs",
+   "pl": 7,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     6,
+     "Adamant Bar"
+    ],
+    [
+     6,
+     "Scorch Leather"
+    ],
+    [
+     2,
+     "Desert Cloth"
+    ],
+    [
+     2,
+     "Refined Obsidian"
+    ],
+    [
+     2,
+     "Gypsum Wax"
+    ],
+    [
+     2,
+     "Garou Weave"
+    ]
+   ]
+  },
+  {
+   "n": "Obsidian Helmet",
+   "pl": 7,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     10,
+     "Refined Obsidian"
+    ],
+    [
+     6,
+     "Scorch Leather"
+    ]
+   ]
+  },
+  {
+   "n": "Obsidian Chest",
+   "pl": 7,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     18,
+     "Refined Obsidian"
+    ],
+    [
+     14,
+     "Scorch Leather"
+    ]
+   ]
+  },
+  {
+   "n": "Obsidian Legs",
+   "pl": 7,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     14,
+     "Refined Obsidian"
+    ],
+    [
+     10,
+     "Scorch Leather"
+    ]
+   ],
+   "note": "The obsidian set skips the usual cloth and wax entirely — only two materials, both from the sands."
+  },
+  {
+   "n": "Red Dragon Chest",
+   "pl": 7,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Ranged armour",
+   "mats": [
+    [
+     12,
+     "Red Dragonhide Leather"
+    ],
+    [
+     4,
+     "Scorch Leather"
+    ],
+    [
+     4,
+     "Adamant Bar"
+    ],
+    [
+     3,
+     "Refined Obsidian"
+    ],
+    [
+     3,
+     "Gypsum Wax"
+    ],
+    [
+     6,
+     "Garou Weave"
+    ]
+   ]
+  },
+  {
+   "n": "Red Dragon Legs",
+   "pl": 7,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Ranged armour",
+   "mats": [
+    [
+     6,
+     "Red Dragonhide Leather"
+    ],
+    [
+     4,
+     "Scorch Leather"
+    ],
+    [
+     2,
+     "Adamant Bar"
+    ],
+    [
+     2,
+     "Refined Obsidian"
+    ]
+   ],
+   "note": "Partial — the gypsum wax and garou weave amounts were cut off in the source, so this undercounts. Verify at the bench."
+  },
+  {
+   "n": "Red Dragon Helmet",
+   "pl": 7,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Ranged armour",
+   "mats": [],
+   "note": "Recipe not sourced yet. The other pieces suggest roughly a third of the chest cost."
+  },
+  {
+   "n": "Rune Helm",
+   "pl": 8,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     3,
+     "Rune Bar"
+    ],
+    [
+     3,
+     "Black Dragon Leather"
+    ],
+    [
+     1,
+     "Vis Cloth"
+    ],
+    [
+     1,
+     "Harmonised Compound"
+    ],
+    [
+     1,
+     "Draconic Vis Wax"
+    ]
+   ]
+  },
+  {
+   "n": "Rune Platebody",
+   "pl": 8,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     6,
+     "Rune Bar"
+    ],
+    [
+     6,
+     "Black Dragon Leather"
+    ],
+    [
+     2,
+     "Vis Cloth"
+    ],
+    [
+     2,
+     "Harmonised Compound"
+    ],
+    [
+     2,
+     "Draconic Vis Wax"
+    ]
+   ],
+   "note": "Cut in the 25 September patch — it was 10 bar and 8 leather before."
+  },
+  {
+   "n": "Rune Platelegs",
+   "pl": 8,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     4,
+     "Rune Bar"
+    ],
+    [
+     4,
+     "Black Dragon Leather"
+    ],
+    [
+     1,
+     "Vis Cloth"
+    ],
+    [
+     1,
+     "Harmonised Compound"
+    ],
+    [
+     1,
+     "Draconic Vis Wax"
+    ]
+   ]
+  },
+  {
+   "n": "Rune Shield",
+   "pl": 8,
+   "st": "Blacksmith's Bench",
+   "cat": "Shield",
+   "kind": "Shield",
+   "mats": [
+    [
+     6,
+     "Rune Bar"
+    ],
+    [
+     3,
+     "Black Dragon Leather"
+    ],
+    [
+     1,
+     "Draconic Vis Wax"
+    ]
+   ],
+   "note": "Unlocked by tanning black dragon leather — no vis cloth needed."
+  },
+  {
+   "n": "Black Dragonhide Coif",
+   "pl": 8,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Ranged armour",
+   "mats": [
+    [
+     4,
+     "Black Dragon Leather"
+    ],
+    [
+     2,
+     "Vis Cloth"
+    ],
+    [
+     1,
+     "Rune Bar"
+    ],
+    [
+     1,
+     "Harmonised Compound"
+    ],
+    [
+     1,
+     "Draconic Vis Wax"
+    ]
+   ]
+  },
+  {
+   "n": "Black Dragonhide Body",
+   "pl": 8,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Ranged armour",
+   "mats": [
+    [
+     12,
+     "Black Dragon Leather"
+    ],
+    [
+     4,
+     "Vis Cloth"
+    ],
+    [
+     3,
+     "Rune Bar"
+    ],
+    [
+     2,
+     "Harmonised Compound"
+    ],
+    [
+     2,
+     "Draconic Vis Wax"
+    ]
+   ]
+  },
+  {
+   "n": "Black Dragonhide Chaps",
+   "pl": 8,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Ranged armour",
+   "mats": [
+    [
+     6,
+     "Black Dragon Leather"
+    ],
+    [
+     2,
+     "Vis Cloth"
+    ],
+    [
+     1,
+     "Rune Bar"
+    ],
+    [
+     1,
+     "Harmonised Compound"
+    ],
+    [
+     1,
+     "Draconic Vis Wax"
+    ]
+   ]
+  },
+  {
+   "n": "Rune Sword",
+   "pl": 8,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     10,
+     "Rune Bar"
+    ],
+    [
+     5,
+     "Black Dragon Leather"
+    ],
+    [
+     3,
+     "Vis Fibres"
+    ],
+    [
+     2,
+     "Draconic Vis Wax"
+    ]
+   ],
+   "note": "Pre-patch figures — the 25 September cut may apply here too."
+  },
+  {
+   "n": "Rune Dagger",
+   "pl": 8,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     8,
+     "Rune Bar"
+    ],
+    [
+     6,
+     "Harmonised Compound"
+    ],
+    [
+     3,
+     "Vis Fibres"
+    ],
+    [
+     2,
+     "Draconic Vis Wax"
+    ]
+   ],
+   "note": "Pre-patch figures."
+  },
+  {
+   "n": "Magic Longbow",
+   "pl": 8,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     16,
+     "Magic Logs"
+    ],
+    [
+     8,
+     "Vis Fibres"
+    ],
+    [
+     4,
+     "Rune Bar"
+    ],
+    [
+     4,
+     "Dragonstone"
+    ],
+    [
+     4,
+     "Draconic Vis Wax"
+    ]
+   ],
+   "note": "Pre-patch figures."
+  },
+  {
+   "n": "Magic Shortbow",
+   "pl": 8,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     10,
+     "Magic Logs"
+    ],
+    [
+     4,
+     "Vis Fibres"
+    ],
+    [
+     2,
+     "Rune Bar"
+    ],
+    [
+     2,
+     "Dragonstone"
+    ],
+    [
+     2,
+     "Draconic Vis Wax"
+    ]
+   ],
+   "note": "Pre-patch figures."
+  },
+  {
+   "n": "Rune Crossbow",
+   "pl": 8,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Weapon",
+   "mats": [
+    [
+     16,
+     "Magic Logs"
+    ],
+    [
+     6,
+     "Vis Fibres"
+    ],
+    [
+     2,
+     "Draconic Vis Wax"
+    ],
+    [
+     1,
+     "Rune Crossbow Limbs"
+    ],
+    [
+     1,
+     "Dragonstone"
+    ]
+   ],
+   "note": "Pre-patch figures."
+  },
+  {
+   "n": "Rune Logging Axe",
+   "pl": 8,
+   "st": "Blacksmith's Bench",
+   "cat": "Tool",
+   "kind": "Tool",
+   "mats": [
+    [
+     5,
+     "Rune Bar"
+    ],
+    [
+     6,
+     "Yew Logs"
+    ],
+    [
+     2,
+     "Vis Fibres"
+    ]
+   ],
+   "note": "Cut in the 25 September patch from 8 bar and 4 fibres."
+  },
+  {
+   "n": "Rune Watering Can",
+   "pl": 8,
+   "st": "Blacksmith's Bench",
+   "cat": "Tool",
+   "kind": "Tool",
+   "mats": [
+    [
+     4,
+     "Rune Bar"
+    ],
+    [
+     1,
+     "Vis Cloth"
+    ]
+   ]
+  },
+  {
+   "n": "Rune Scimitar",
+   "pl": 8,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     6,
+     "Rune Bar"
+    ],
+    [
+     3,
+     "Black Dragon Leather"
+    ],
+    [
+     1,
+     "Vis Cloth"
+    ],
+    [
+     1,
+     "Draconic Vis Wax"
+    ]
+   ],
+   "note": "Post-patch. Was 10 bar, 5 leather, 2 cloth and 2 wax before 25 September."
+  },
+  {
+   "n": "Rune Greatsword",
+   "pl": 8,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     8,
+     "Rune Bar"
+    ],
+    [
+     3,
+     "Black Dragon Leather"
+    ],
+    [
+     2,
+     "Vis Fibres"
+    ],
+    [
+     2,
+     "Draconic Vis Wax"
+    ]
+   ],
+   "note": "Post-patch. Was 12 bar, 5 leather, 4 fibres and 4 wax."
+  },
+  {
+   "n": "Rune Arrow",
+   "pl": 8,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Ammunition",
+   "out": 33,
+   "mats": [
+    [
+     1,
+     "Rune Bar"
+    ],
+    [
+     1,
+     "Magic Logs"
+    ],
+    [
+     1,
+     "Feathers"
+    ]
+   ],
+   "note": "One craft yields 33."
+  },
+  {
+   "n": "Rune Bolt",
+   "pl": 8,
+   "st": "Fletching Bench",
+   "cat": "Ranged",
+   "kind": "Ammunition",
+   "out": 33,
+   "mats": [
+    [
+     1,
+     "Rune Bar"
+    ],
+    [
+     1,
+     "Feathers"
+    ]
+   ],
+   "note": "One craft yields 33."
+  },
+  {
+   "n": "Adamant Greatsword",
+   "pl": 7,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [
+    [
+     12,
+     "Adamant Bar"
+    ],
+    [
+     5,
+     "Scorch Leather"
+    ],
+    [
+     4,
+     "Desert Thread"
+    ],
+    [
+     4,
+     "Gypsum Wax"
+    ]
+   ]
+  },
+  {
+   "n": "Ash Wand",
+   "pl": 2,
+   "st": "Crafting Table",
+   "cat": "Magic",
+   "kind": "Wand",
+   "mats": [
+    [
+     6,
+     "Ash Logs"
+    ],
+    [
+     3,
+     "Rune Essence"
+    ],
+    [
+     1,
+     "Coarse Thread"
+    ]
+   ]
+  },
+  {
+   "n": "Oak Wand",
+   "pl": 3,
+   "st": "Mystic Forge",
+   "cat": "Magic",
+   "kind": "Wand",
+   "mats": [
+    [
+     6,
+     "Oak Logs"
+    ],
+    [
+     3,
+     "Anima-Infused Bark"
+    ],
+    [
+     2,
+     "Wool Thread"
+    ]
+   ]
+  },
+  {
+   "n": "Blightwood Wand",
+   "pl": 4,
+   "st": "Mystic Forge",
+   "cat": "Magic",
+   "kind": "Wand",
+   "mats": [
+    [
+     6,
+     "Blightwood"
+    ],
+    [
+     3,
+     "Wild Anima"
+    ],
+    [
+     2,
+     "Swamp Thread"
+    ],
+    [
+     2,
+     "Vault Shard"
+    ]
+   ]
+  },
+  {
+   "n": "Splitbark Wand",
+   "pl": 5,
+   "st": "Mystic Forge",
+   "cat": "Magic",
+   "kind": "Wand",
+   "mats": [
+    [
+     8,
+     "Hollow Bark"
+    ],
+    [
+     3,
+     "Sacred Oil"
+    ],
+    [
+     3,
+     "Vault Shard"
+    ],
+    [
+     2,
+     "Fine Thread"
+    ]
+   ]
+  },
+  {
+   "n": "Maple Wand",
+   "pl": 6,
+   "st": "Mystic Forge",
+   "cat": "Magic",
+   "kind": "Wand",
+   "mats": [
+    [
+     8,
+     "Maple Logs"
+    ],
+    [
+     8,
+     "Infernal Fragments"
+    ],
+    [
+     3,
+     "Mithril Bar"
+    ],
+    [
+     2,
+     "Glass Vessel"
+    ]
+   ]
+  },
+  {
+   "n": "Master Wand",
+   "pl": 7,
+   "st": "Mystic Forge",
+   "cat": "Magic",
+   "kind": "Wand",
+   "mats": [
+    [
+     8,
+     "Yew Logs"
+    ],
+    [
+     3,
+     "Refined Obsidian"
+    ],
+    [
+     2,
+     "Infinity Cloth"
+    ],
+    [
+     2,
+     "Dragonstone"
+    ],
+    [
+     2,
+     "Gypsum Wax"
+    ]
+   ]
+  },
+  {
+   "n": "Ancestral Wand",
+   "pl": 8,
+   "st": "Mystic Forge",
+   "cat": "Magic",
+   "kind": "Wand · Artisan 20",
+   "mats": [
+    [
+     8,
+     "Magic Logs"
+    ],
+    [
+     5,
+     "Harmonised Compound"
+    ],
+    [
+     2,
+     "Vis Cloth"
+    ],
+    [
+     2,
+     "Dragonstone"
+    ],
+    [
+     2,
+     "Draconic Vis Wax"
+    ]
+   ]
+  },
+  {
+   "n": "Kuldra's Wrath",
+   "pl": 8,
+   "st": "Mystic Forge",
+   "cat": "Magic",
+   "kind": "Wand",
+   "mats": [],
+   "note": "The top wand. Recipe not sourced — likely a raid drop rather than a bench craft."
+  },
+  {
+   "n": "Dragon Scimitar",
+   "pl": 9,
+   "st": "Blacksmith's Bench",
+   "cat": "Melee",
+   "kind": "Weapon",
+   "mats": [],
+   "note": "Power level 9, above the rune tier. No ingredient cost listed anywhere — acquisition route unconfirmed."
+  },
+  {
+   "n": "Grieving Moon Staff",
+   "pl": 3,
+   "st": "Mystic Forge",
+   "cat": "Magic",
+   "kind": "Staff",
+   "mats": [
+    [
+     8,
+     "Oak Logs"
+    ],
+    [
+     6,
+     "Antler"
+    ],
+    [
+     2,
+     "Animal Bone"
+    ]
+   ]
+  },
+  {
+   "n": "Rune Crossbow Limbs",
+   "pl": 8,
+   "st": "Blacksmith's Bench",
+   "cat": "Component",
+   "kind": "Limbs",
+   "mats": [],
+   "note": "Quantity not sourced — the adamant limbs take 2 bars."
+  },
+  {
+   "n": "Ancestral Hat",
+   "pl": 8,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Magic armour",
+   "mats": [
+    [
+     1,
+     "Vis Cloth"
+    ],
+    [
+     1,
+     "Black Dragon Leather"
+    ],
+    [
+     1,
+     "Rune Bar"
+    ],
+    [
+     1,
+     "Harmonised Compound"
+    ],
+    [
+     1,
+     "Draconic Vis Wax"
+    ]
+   ]
+  },
+  {
+   "n": "Ancestral Robes",
+   "pl": 8,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Magic armour",
+   "mats": [
+    [
+     4,
+     "Vis Cloth"
+    ],
+    [
+     2,
+     "Black Dragon Leather"
+    ],
+    [
+     2,
+     "Rune Bar"
+    ],
+    [
+     2,
+     "Harmonised Compound"
+    ],
+    [
+     2,
+     "Draconic Vis Wax"
+    ]
+   ],
+   "note": "Cut by a third in the 25 September patch. These are the post-patch figures."
+  },
+  {
+   "n": "Ancestral Leggings",
+   "pl": 8,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Magic armour",
+   "mats": [
+    [
+     2,
+     "Vis Cloth"
+    ],
+    [
+     2,
+     "Black Dragon Leather"
+    ],
+    [
+     2,
+     "Rune Bar"
+    ],
+    [
+     2,
+     "Harmonised Compound"
+    ],
+    [
+     2,
+     "Draconic Vis Wax"
+    ]
+   ],
+   "note": "Post-patch figures, confirmed on the wiki."
+  },
+  {
+   "n": "Apprentice Hat",
+   "pl": 1,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Magic armour",
+   "mats": [
+    [
+     4,
+     "Coarse Thread"
+    ],
+    [
+     2,
+     "Rune Essence"
+    ]
+   ]
+  },
+  {
+   "n": "Apprentice Robe",
+   "pl": 1,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Magic armour",
+   "mats": [
+    [
+     10,
+     "Coarse Thread"
+    ],
+    [
+     8,
+     "Rune Essence"
+    ]
+   ]
+  },
+  {
+   "n": "Apprentice Leggings",
+   "pl": 1,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Magic armour",
+   "mats": [
+    [
+     8,
+     "Coarse Thread"
+    ],
+    [
+     6,
+     "Rune Essence"
+    ]
+   ]
+  },
+  {
+   "n": "Reinforced Helmet",
+   "pl": 2,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     4,
+     "Animal Bone"
+    ],
+    [
+     2,
+     "Leather"
+    ]
+   ]
+  },
+  {
+   "n": "Reinforced Body",
+   "pl": 2,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     10,
+     "Animal Bone"
+    ],
+    [
+     8,
+     "Leather"
+    ]
+   ]
+  },
+  {
+   "n": "Reinforced Legs",
+   "pl": 2,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     8,
+     "Animal Bone"
+    ],
+    [
+     6,
+     "Leather"
+    ]
+   ]
+  },
+  {
+   "n": "Infinity Robe Hat",
+   "pl": 7,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Magic armour",
+   "mats": [
+    [
+     2,
+     "Infinity Cloth"
+    ],
+    [
+     2,
+     "Garou Weave"
+    ],
+    [
+     1,
+     "Scorch Leather"
+    ],
+    [
+     1,
+     "Adamant Bar"
+    ],
+    [
+     1,
+     "Refined Obsidian"
+    ],
+    [
+     1,
+     "Gypsum Wax"
+    ]
+   ]
+  },
+  {
+   "n": "Infinity Robe Body",
+   "pl": 7,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Magic armour",
+   "mats": [
+    [
+     6,
+     "Infinity Cloth"
+    ],
+    [
+     6,
+     "Garou Weave"
+    ],
+    [
+     3,
+     "Scorch Leather"
+    ],
+    [
+     3,
+     "Adamant Bar"
+    ],
+    [
+     3,
+     "Refined Obsidian"
+    ],
+    [
+     3,
+     "Gypsum Wax"
+    ]
+   ]
+  },
+  {
+   "n": "Infinity Robe Legs",
+   "pl": 7,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Magic armour",
+   "mats": [
+    [
+     4,
+     "Infinity Cloth"
+    ],
+    [
+     4,
+     "Garou Weave"
+    ],
+    [
+     2,
+     "Scorch Leather"
+    ],
+    [
+     2,
+     "Adamant Bar"
+    ],
+    [
+     2,
+     "Refined Obsidian"
+    ],
+    [
+     2,
+     "Gypsum Wax"
+    ]
+   ]
+  },
+  {
+   "n": "Mithril Helmet",
+   "pl": 6,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Melee armour",
+   "mats": [
+    [
+     4,
+     "Cursed Leather"
+    ],
+    [
+     4,
+     "Mithril Bar"
+    ],
+    [
+     1,
+     "Mystic Cloth"
+    ],
+    [
+     1,
+     "Demonic Oil"
+    ]
+   ]
+  },
+  {
+   "n": "Hard Leather Cowl",
+   "pl": 3,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Ranged armour",
+   "mats": [
+    [
+     4,
+     "Hard Leather"
+    ],
+    [
+     2,
+     "Fleece"
+    ],
+    [
+     1,
+     "Bronze Bar"
+    ]
+   ]
+  },
+  {
+   "n": "Hard Leather Body",
+   "pl": 3,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Ranged armour",
+   "mats": [
+    [
+     10,
+     "Hard Leather"
+    ],
+    [
+     4,
+     "Fleece"
+    ],
+    [
+     2,
+     "Bronze Bar"
+    ]
+   ]
+  },
+  {
+   "n": "Hard Leather Chaps",
+   "pl": 3,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Ranged armour",
+   "mats": [
+    [
+     6,
+     "Hard Leather"
+    ],
+    [
+     4,
+     "Fleece"
+    ],
+    [
+     2,
+     "Bronze Bar"
+    ]
+   ]
+  },
+  {
+   "n": "Studded Leather Cowl",
+   "pl": 4,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Ranged armour",
+   "mats": [
+    [
+     4,
+     "Hard Leather"
+    ],
+    [
+     2,
+     "Padded Cloth"
+    ],
+    [
+     2,
+     "Iron Bar"
+    ],
+    [
+     1,
+     "Vault Shard"
+    ]
+   ]
+  },
+  {
+   "n": "Studded Leather Body",
+   "pl": 4,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Ranged armour",
+   "mats": [
+    [
+     10,
+     "Hard Leather"
+    ],
+    [
+     4,
+     "Padded Cloth"
+    ],
+    [
+     4,
+     "Iron Bar"
+    ],
+    [
+     3,
+     "Vault Shard"
+    ]
+   ]
+  },
+  {
+   "n": "Studded Leather Chaps",
+   "pl": 4,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Ranged armour",
+   "mats": [
+    [
+     6,
+     "Hard Leather"
+    ],
+    [
+     4,
+     "Iron Bar"
+    ],
+    [
+     3,
+     "Padded Cloth"
+    ],
+    [
+     2,
+     "Vault Shard"
+    ]
+   ]
+  },
+  {
+   "n": "Wild Archer Cowl",
+   "pl": 4,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Ranged armour",
+   "mats": [
+    [
+     4,
+     "Hard Leather"
+    ],
+    [
+     2,
+     "Padded Cloth"
+    ],
+    [
+     2,
+     "Gold Bar"
+    ],
+    [
+     1,
+     "Vault Shard"
+    ]
+   ]
+  },
+  {
+   "n": "Wild Archer Body",
+   "pl": 4,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Ranged armour",
+   "mats": [
+    [
+     12,
+     "Hard Leather"
+    ],
+    [
+     4,
+     "Padded Cloth"
+    ],
+    [
+     4,
+     "Gold Bar"
+    ],
+    [
+     3,
+     "Vault Shard"
+    ]
+   ]
+  },
+  {
+   "n": "Wild Archer Chaps",
+   "pl": 4,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Ranged armour",
+   "mats": [
+    [
+     8,
+     "Hard Leather"
+    ],
+    [
+     4,
+     "Gold Bar"
+    ],
+    [
+     3,
+     "Padded Cloth"
+    ],
+    [
+     2,
+     "Vault Shard"
+    ]
+   ]
+  },
+  {
+   "n": "Dark Mage Hood",
+   "pl": 0,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Magic armour",
+   "mats": [
+    [
+     3,
+     "Padded Cloth"
+    ],
+    [
+     2,
+     "Hard Leather"
+    ],
+    [
+     1,
+     "Vault Shard"
+    ],
+    [
+     1,
+     "Silver Bar"
+    ]
+   ]
+  },
+  {
+   "n": "Dark Mage Robes",
+   "pl": 0,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Magic armour",
+   "mats": [
+    [
+     8,
+     "Padded Cloth"
+    ],
+    [
+     8,
+     "Hard Leather"
+    ],
+    [
+     4,
+     "Silver Bar"
+    ],
+    [
+     3,
+     "Vault Shard"
+    ]
+   ]
+  },
+  {
+   "n": "Dark Mage Robe Legs",
+   "pl": 0,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Magic armour",
+   "mats": [
+    [
+     6,
+     "Padded Cloth"
+    ],
+    [
+     4,
+     "Hard Leather"
+    ],
+    [
+     2,
+     "Vault Shard"
+    ],
+    [
+     2,
+     "Silver Bar"
+    ]
+   ]
+  },
+  {
+   "n": "Dragonkin Mage Hood",
+   "pl": 0,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Magic armour",
+   "mats": [
+    [
+     3,
+     "Hard Leather"
+    ],
+    [
+     2,
+     "Padded Cloth"
+    ],
+    [
+     1,
+     "Vault Shard"
+    ],
+    [
+     1,
+     "Gold Bar"
+    ]
+   ]
+  },
+  {
+   "n": "Dragonkin Mage Robes",
+   "pl": 0,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Magic armour",
+   "mats": [
+    [
+     10,
+     "Hard Leather"
+    ],
+    [
+     6,
+     "Padded Cloth"
+    ],
+    [
+     4,
+     "Gold Bar"
+    ],
+    [
+     3,
+     "Vault Shard"
+    ]
+   ]
+  },
+  {
+   "n": "Dragonkin Mage Robe Legs",
+   "pl": 0,
+   "st": "Armour Bench",
+   "cat": "Armour",
+   "kind": "Magic armour",
+   "mats": [
+    [
+     6,
+     "Iron Bar"
+    ],
+    [
+     6,
+     "Hard Leather"
+    ],
+    [
+     2,
+     "Padded Cloth"
+    ],
+    [
+     2,
+     "Vault Shard"
+    ]
+   ]
+  },
+  {
+   "n": "Iron Shield",
+   "pl": 4,
+   "st": "Armour Bench",
+   "cat": "Shield",
+   "kind": "Shield",
+   "mats": [
+    [
+     8,
+     "Iron Bar"
+    ],
+    [
+     4,
+     "Vault Shard"
+    ],
+    [
+     4,
+     "Hard Leather"
+    ]
+   ]
+  },
+  {
+   "n": "Anti-dragon Shield",
+   "pl": 4,
+   "st": "Armour Bench",
+   "cat": "Shield",
+   "kind": "Dragon Slayer reward",
+   "mats": [
+    [
+     12,
+     "Blightwood"
+    ],
+    [
+     8,
+     "Vault Shard"
+    ],
+    [
+     4,
+     "Wild Anima"
+    ],
+    [
+     4,
+     "Opal"
+    ],
+    [
+     4,
+     "Hard Leather"
+    ],
+    [
+     1,
+     "Vault Core"
+    ]
+   ]
+  },
+  {
+   "n": "Iron Pickaxe",
+   "pl": 4,
+   "st": "Blacksmith's Bench",
+   "cat": "Tool",
+   "kind": "Tool",
+   "mats": [
+    [
+     6,
+     "Iron Bar"
+    ],
+    [
+     4,
+     "Blightwood"
+    ],
+    [
+     2,
+     "Hard Leather"
+    ]
+   ]
+  },
+  {
+   "n": "Ascension Core (PL 4–6)",
+   "pl": 6,
+   "st": "Mystic Forge",
+   "cat": "Processing",
+   "kind": "Endgame",
+   "mats": [
+    [
+     99,
+     "Ascension Shard"
+    ]
+   ],
+   "note": "Plus 10 bars, 10 leather and 10 cloth of the tier you are ascending to — those vary per tier, so they are not listed as fixed ingredients. PL7 cores come from the Nightmare Crucible instead."
+  }
+ ],
+ "materials": [
+  {
+   "n": "Copper Ore",
+   "g": "Ore",
+   "w": "Mainly the Fractured Plains",
+   "r": "Ghornfell",
+   "x": "3 copper + 3 tin smelt to a Bronze Bar. 1/20 Opal once Gem Prospector is unlocked."
+  },
+  {
+   "n": "Tin Ore",
+   "g": "Ore",
+   "w": "Mainly the Fractured Plains",
+   "r": "Ghornfell",
+   "x": "Pairs with copper for bronze. Also drops Opal at 1/20."
+  },
+  {
+   "n": "Iron Ore",
+   "g": "Ore",
+   "w": "Stormtouched Highlands and Fellhollow",
+   "r": "Ghornfell / Fellhollow",
+   "x": "3 ore per Iron Bar. Feeds both the iron and steel tiers, so it reaches more weapon recipes than any other ore. 1/20 Jade."
+  },
+  {
+   "n": "Silver Ore",
+   "g": "Ore",
+   "w": "Mainly the Bloodblight Swamp; also Dowdun Reach",
+   "r": "Ghornfell",
+   "x": "Jewellery metal. One swamp run covers silver and gold together."
+  },
+  {
+   "n": "Gold Ore",
+   "g": "Ore",
+   "w": "Mainly the Bloodblight Swamp; also Dowdun Reach",
+   "r": "Ghornfell",
+   "x": "The Sapphire source. Late-tier only — gold and silver appear in three weapons between them."
+  },
+  {
+   "n": "Blurite Ore",
+   "g": "Ore",
+   "w": "Ghornfell",
+   "r": "Ghornfell",
+   "x": "Used for the Blurite crossbow line."
+  },
+  {
+   "n": "Mithril Ore",
+   "g": "Ore",
+   "w": "All over Dowdun Reach, including the underground areas",
+   "r": "Dowdun Reach",
+   "x": "3 ore + 3 coal per Mithril Bar."
+  },
+  {
+   "n": "Adamantite Ore",
+   "g": "Ore",
+   "w": "All over the Umbral Sands",
+   "r": "Umbral Sands",
+   "x": "3 ore + 3 coal per Adamant Bar. 1/20 Dragonstone."
+  },
+  {
+   "n": "Coal",
+   "g": "Ore",
+   "w": "Fellhollow, Dowdun Reach and Umbral Sands",
+   "r": "Fellhollow+",
+   "x": "3 per Blast Furnace smelt, for steel, mithril, adamant and black metal. Never shows on the weapon's own recipe screen — the bar eats it. Stockpile it."
+  },
+  {
+   "n": "Opal",
+   "g": "Gem",
+   "w": "1/20 from copper or tin nodes; 1/100 from a stone boulder; 1/50 from reward packs",
+   "r": "Ghornfell",
+   "x": "Needs the Gem Prospector passive at Mining 16. Before that, nodes give ore only."
+  },
+  {
+   "n": "Jade",
+   "g": "Gem",
+   "w": "1/20 from iron nodes; 1/50 from reward packs",
+   "r": "Ghornfell / Fellhollow",
+   "x": "The crossbow-tier gem."
+  },
+  {
+   "n": "Sapphire",
+   "g": "Gem",
+   "w": "Gold ore nodes and reward packs",
+   "r": "Ghornfell",
+   "x": "The only gem with no published rate — called rare, so don't plan a grind around it."
+  },
+  {
+   "n": "Dragonstone",
+   "g": "Gem",
+   "w": "1/20 from adamantite nodes; 1/50 from Umbral Sands gold reward packs",
+   "r": "Umbral Sands",
+   "x": "Reaches seven recipes, all in the top power band."
+  },
+  {
+   "n": "Red Topaz",
+   "g": "Gem",
+   "w": "Source not recorded on the wiki yet",
+   "r": "—",
+   "x": "Listed among Artisan gems."
+  },
+  {
+   "n": "Vault Shard",
+   "g": "Key",
+   "w": "Dragonkin Vaults only — nothing else drops it",
+   "r": "All regions",
+   "x": "The widest-reaching material in the game: 22 of the 48 weapon recipes, up to 12 at a time. If a recipe wants shards, a vault run goes on the list."
+  },
+  {
+   "n": "Vault Core",
+   "g": "Key",
+   "w": "Dragonkin Vaults",
+   "r": "All regions",
+   "x": "One each for the Crystal Bow and the Abyssal Whip."
+  },
+  {
+   "n": "Ascension Shard",
+   "g": "Key",
+   "w": "Boss drops",
+   "r": "All regions",
+   "x": "99 per PL4–6 ascension core at the Mystic Forge. PL7 cores come from the Nightmare Crucible instead."
+  },
+  {
+   "n": "Animal Hide",
+   "g": "Hide",
+   "w": "Skinnable animals",
+   "r": "All regions",
+   "x": "1 hide tans into 1 Leather."
+  },
+  {
+   "n": "Animal Hide Scraps",
+   "g": "Hide",
+   "w": "Skinning, alongside whole hides",
+   "r": "All regions",
+   "x": "Tans into Leather exactly as a whole hide does."
+  },
+  {
+   "n": "Dragon Blood",
+   "g": "Component",
+   "w": "Dragons, and dragonwolves in Fellhollow",
+   "r": "Fellhollow+",
+   "x": "Stands in for Dragonwolf Hide when tanning Draconic Leather."
+  },
+  {
+   "n": "Kalphite Shell Fragments",
+   "g": "Component",
+   "w": "Kalphites across the sands",
+   "r": "Umbral Sands",
+   "x": "Three fragments plus an acrid adhesive make one Kalphite Shell."
+  },
+  {
+   "n": "Red Dragonhide Leather",
+   "g": "Hide",
+   "w": "Advanced Tannery, from red dragonhide",
+   "r": "Umbral Sands",
+   "x": "Red dragons hunt at night in the sands. The chest alone wants 12."
+  },
+  {
+   "n": "Bronze Bar",
+   "g": "Ore",
+   "w": "Furnace — 3 Copper Ore + 3 Tin Ore makes 2 bars",
+   "r": "Ghornfell",
+   "x": "The only bar that yields two per craft, which is why bronze gear reads expensive in bars but is not in ore."
+  },
+  {
+   "n": "Iron Bar",
+   "g": "Ore",
+   "w": "Furnace — 3 Iron Ore",
+   "r": "Ghornfell / Fellhollow",
+   "x": "No coal needed. The iron tier and several station builds."
+  },
+  {
+   "n": "Steel Bar",
+   "g": "Ore",
+   "w": "Blast Furnace — 3 Iron Ore + 3 Coal",
+   "r": "Fellhollow",
+   "x": "The first bar that needs the Blast Furnace, and therefore fuel pellets."
+  },
+  {
+   "n": "Silver Bar",
+   "g": "Ore",
+   "w": "Furnace — 3 Silver Ore",
+   "r": "Ghornfell",
+   "x": "Jewellery and the dark mage line."
+  },
+  {
+   "n": "Gold Bar",
+   "g": "Ore",
+   "w": "Furnace — 3 Gold Ore",
+   "r": "Ghornfell",
+   "x": "Fine Cloth and the wild archer line."
+  },
+  {
+   "n": "Mithril Bar",
+   "g": "Ore",
+   "w": "Blast Furnace — 3 Mithril Ore + 3 Coal",
+   "r": "Dowdun Reach",
+   "x": "The mithril tier, and four go into the Advanced Tannery."
+  },
+  {
+   "n": "Adamant Bar",
+   "g": "Ore",
+   "w": "Blast Furnace — 3 Adamantite Ore + 3 Coal",
+   "r": "Umbral Sands",
+   "x": "The adamant tier and the power level 7 sets."
+  },
+  {
+   "n": "Rune Bar",
+   "g": "Ore",
+   "w": "Blast Furnace — 3 Rune Ore + 3 Luminite",
+   "r": "Scorned Wilderness",
+   "x": "Power level 8. The Rune Platebody takes 6, so that is 18 of each ore."
+  },
+  {
+   "n": "Rune Ore",
+   "g": "Ore",
+   "w": "Mined in the Scorned Wilderness",
+   "r": "Scorned Wilderness",
+   "x": "Half of a rune bar. The other half is luminite, not coal."
+  },
+  {
+   "n": "Black Dragon Leather",
+   "g": "Hide",
+   "w": "Black dragons in the Scorned Wilderness",
+   "r": "Scorned Wilderness",
+   "x": "The PL8 leather, shared by the rune and ancestral lines."
+  },
+  {
+   "n": "Vis Cloth",
+   "g": "Cloth",
+   "w": "Loom with the harness — 2 Vis Fibres + 2 Draconic Vis Wax",
+   "r": "Scorned Wilderness",
+   "x": "The PL8 cloth. Ancestral pieces run on it."
+  },
+  {
+   "n": "Vis Fibres",
+   "g": "Fibre",
+   "w": "Advanced Spinning Wheel — 3 Harmonised Compound + 3 Ground Rune Essence",
+   "r": "Scorned Wilderness",
+   "x": "Spun, then woven into vis cloth. Also goes straight into the rune weapons."
+  },
+  {
+   "n": "Discordant Residue",
+   "g": "Component",
+   "w": "Scorned Wilderness",
+   "r": "Scorned Wilderness",
+   "x": "Fires into Harmonised Compound at the Kiln. The bottleneck for the entire vis chain."
+  },
+  {
+   "n": "Ground Rune Essence",
+   "g": "Component",
+   "w": "Grindstone, from rune essence",
+   "r": "All regions",
+   "x": "Feeds vis fibres, the wax and black dragon leather — three chains at once."
+  },
+  {
+   "n": "Ground Dragon Tooth",
+   "g": "Component",
+   "w": "Grindstone, from dragon teeth",
+   "r": "Scorned Wilderness",
+   "x": "Used by exactly one recipe: Draconic Vis Wax."
+  },
+  {
+   "n": "Dragon Tooth",
+   "g": "Component",
+   "w": "Dragon skulls",
+   "r": "Ghornfell+",
+   "x": "Ground down for the wax. The Challenge Horn in Dragon Slayer wants one too."
+  },
+  {
+   "n": "Black Dragon Hide",
+   "g": "Hide",
+   "w": "Black dragons in the Scorned Wilderness",
+   "r": "Scorned Wilderness",
+   "x": "Tans with dragon blood and ground rune essence into Black Dragon Leather."
+  },
+  {
+   "n": "Magic Logs",
+   "g": "Wood",
+   "w": "Magic trees",
+   "r": "Scorned Wilderness",
+   "x": "The PL8 bow line runs on them — 16 for a Magic Longbow."
+  },
+  {
+   "n": "Wheat",
+   "g": "Potion",
+   "w": "Farming plots",
+   "r": "Brynmoor+",
+   "x": "Grinds one-for-one into a Bag of Flour, and goes straight into the crunchies and the sponge cake."
+  },
+  {
+   "n": "Blue Dragon Scale",
+   "g": "Hide",
+   "w": "Blue dragons",
+   "r": "Dowdun Reach",
+   "x": "Tans into Blue Dragon Leather."
+  },
+  {
+   "n": "Blue Dragon Leather",
+   "g": "Hide",
+   "w": "Advanced Tannery, from blue dragon scale",
+   "r": "Dowdun Reach",
+   "x": "Sits between draconic and cursed in the leather ladder."
+  },
+  {
+   "n": "Necrotic Bonemeal",
+   "g": "Component",
+   "w": "Grindstone, from undead bone",
+   "r": "Fellhollow",
+   "x": "A processed material the app had missed entirely."
+  },
+  {
+   "n": "Fire Oil",
+   "g": "Component",
+   "w": "Brewing Cauldron",
+   "r": "—",
+   "x": "Recipe not sourced yet."
+  },
+  {
+   "n": "Black Metal Bar",
+   "g": "Ore",
+   "w": "Blast Furnace, from black metal scraps",
+   "r": "Dowdun Reach",
+   "x": "The bar the Black Sword is built from."
+  },
+  {
+   "n": "Blurite Bar",
+   "g": "Ore",
+   "w": "Furnace, from blurite ore",
+   "r": "Ghornfell",
+   "x": "Feeds the blurite crossbow limbs."
+  },
+  {
+   "n": "Glass Vessel",
+   "g": "Component",
+   "w": "Jeweler's Bench — 1 Molten Glass",
+   "r": "—",
+   "x": "The Maple Wand wants two, and the higher-tier potions are brewed in them."
+  },
+  {
+   "n": "Molten Glass",
+   "g": "Component",
+   "w": "Blast Furnace — 3 Ground Limestone + 3 Ground Sandstone, at Artisan 60",
+   "r": "—",
+   "x": "Every glass item comes through here. Made at the Blast Furnace, not the Kiln."
+  },
+  {
+   "n": "Limestone",
+   "g": "Component",
+   "w": "Mined, mainly in Dowdun Reach",
+   "r": "Dowdun Reach",
+   "x": "Grinds one-for-one into Ground Limestone, the expensive half of glass."
+  },
+  {
+   "n": "Sandstone",
+   "g": "Component",
+   "w": "Mined in Ghornfell, Dowdun Reach and the Umbral Sands",
+   "r": "Ghornfell+",
+   "x": "One sandstone grinds into five Ground Sandstone."
+  },
+  {
+   "n": "Granite",
+   "g": "Component",
+   "w": "Mined in Ghornfell and Dowdun Reach",
+   "r": "Ghornfell / Dowdun Reach",
+   "x": "Ground down for the Attack Potion."
+  },
+  {
+   "n": "Clay",
+   "g": "Component",
+   "w": "Clay deposits, most regions",
+   "r": "All regions",
+   "x": "Ground for potions, and thrown into clay vessels at the Pottery Wheel."
+  },
+  {
+   "n": "Feathers",
+   "g": "Component",
+   "w": "Birds",
+   "r": "All regions",
+   "x": "Fletching staple — arrows, bolts and feather bait all want them."
+  },
+  {
+   "n": "Swamp Thread",
+   "g": "Fibre",
+   "w": "Spinning Wheel, from swamp weed",
+   "r": "Brynmoor / Fellhollow",
+   "x": "The thread the blightwood line runs on."
+  },
+  {
+   "n": "Luminite",
+   "g": "Ore",
+   "w": "Mined in the Scorned Wilderness",
+   "r": "Scorned Wilderness",
+   "x": "Three per rune bar, alongside three rune ore. It replaces coal at this tier rather than adding to it."
+  },
+  {
+   "n": "Harmonised Compound",
+   "g": "Component",
+   "w": "Scorned Wilderness raid",
+   "r": "Scorned Wilderness",
+   "x": "Raid-only. Every PL8 armour piece needs it."
+  },
+  {
+   "n": "Draconic Vis Wax",
+   "g": "Component",
+   "w": "Scorned Wilderness raid",
+   "r": "Scorned Wilderness",
+   "x": "Raid-only, and the Rune Platebody is gated on discovering it."
+  },
+  {
+   "n": "Kalphite Wing",
+   "g": "Component",
+   "w": "Kalphites across the sands",
+   "r": "Umbral Sands",
+   "x": "Grinds two-for-one into Shimmerscale Powder — the sparkle in Infinity cloth."
+  },
+  {
+   "n": "Garou Weave",
+   "g": "Fibre",
+   "w": "Moon Garou camps in the Umbral Sands",
+   "r": "Umbral Sands",
+   "x": "Not craftable. Every Infinity piece wants it: 2 for the hat, 4 for the legs, 6 for the body."
+  },
+  {
+   "n": "Elder Curiosities",
+   "g": "Component",
+   "w": "Umbral Sands",
+   "r": "Umbral Sands",
+   "x": "Grinds one-for-one into Ground Obsidian."
+  },
+  {
+   "n": "Gypsum",
+   "g": "Component",
+   "w": "Gypsum deposits across the sands",
+   "r": "Umbral Sands",
+   "x": "Grinds into Ground Gypsum, which brews into Gypsum Wax."
+  },
+  {
+   "n": "Kalphite Ichor",
+   "g": "Component",
+   "w": "Kalphites across the sands",
+   "r": "Umbral Sands",
+   "x": "Three ichor fire into one Acrid Adhesive at the Kiln. One Scorch Leather needs nine of them."
+  },
+  {
+   "n": "Soft Animal Fur",
+   "g": "Fibre",
+   "w": "Skinned animals",
+   "r": "All regions",
+   "x": "Three spin into one Wool Thread — a single fleece does the same job."
+  },
+  {
+   "n": "Leather",
+   "g": "Hide",
+   "w": "Tannery, from Animal Hide",
+   "r": "—",
+   "x": "Base of the leather ladder."
+  },
+  {
+   "n": "Hard Leather",
+   "g": "Hide",
+   "w": "Tannery — 2 Leather + 1 Adhesive",
+   "r": "—",
+   "x": "The adhesive requirement is why swamp tar matters as soon as you start mid-tier ranged gear."
+  },
+  {
+   "n": "Dire Wolf Hide",
+   "g": "Hide",
+   "w": "Dire wolves, 2–4 per kill",
+   "r": "Ghornfell",
+   "x": "Tans one-for-one into Dire Wolf Leather."
+  },
+  {
+   "n": "Dire Wolf Leather",
+   "g": "Hide",
+   "w": "Tannery, from dire wolf hide",
+   "r": "Ghornfell",
+   "x": "The power level 4 leather tier."
+  },
+  {
+   "n": "Draconic Leather",
+   "g": "Hide",
+   "w": "Tannery — 1 Dragonwolf Hide (or dragon blood) + 3 Hard Leather",
+   "r": "Fellhollow",
+   "x": "PL5 leather. Reaches eight weapon recipes — the mithril line and most of the adamant line."
+  },
+  {
+   "n": "Cursed Leather",
+   "g": "Hide",
+   "w": "Tannery — 2 Draconic Leather + 1 Cursed Essence",
+   "r": "Dowdun Reach",
+   "x": "PL6 leather tier."
+  },
+  {
+   "n": "Scorch Leather",
+   "g": "Hide",
+   "w": "Advanced Tannery — 1 Draconic Leather + 2 Kalphite Shell + 1 Acrid Adhesive",
+   "r": "Umbral Sands",
+   "x": "PL7 leather tier. The Advanced Tannery needs Artisan 40."
+  },
+  {
+   "n": "Dragonwolf Hide",
+   "g": "Hide",
+   "w": "Dragonwolves",
+   "r": "Fellhollow",
+   "x": "Five per steel sword or greatsword, and the input for draconic leather."
+  },
+  {
+   "n": "Green Dragon Hide",
+   "g": "Hide",
+   "w": "Green dragons",
+   "r": "Fellhollow",
+   "x": "Two for Ulv's Longbow."
+  },
+  {
+   "n": "Red Dragonhide",
+   "g": "Hide",
+   "w": "Red dragons",
+   "r": "Umbral Sands",
+   "x": "Tans into armour leather. Added with the Umbral Sands."
+  },
+  {
+   "n": "Flax",
+   "g": "Fibre",
+   "w": "Farmed and gathered plants",
+   "r": "Brynmoor",
+   "x": "Spins into Coarse Thread. The early bow line runs on it."
+  },
+  {
+   "n": "Fleece",
+   "g": "Fibre",
+   "w": "Sheared animals",
+   "r": "Brynmoor / Ghornfell",
+   "x": "Spins into Wool Thread. Twelve weapon recipes want it — keep some in the bank."
+  },
+  {
+   "n": "Coarse Animal Fur",
+   "g": "Fibre",
+   "w": "Skinned animals",
+   "r": "All regions",
+   "x": "Alternative input for Coarse Thread."
+  },
+  {
+   "n": "Corpse Cotton",
+   "g": "Fibre",
+   "w": "Plants through Fellhollow",
+   "r": "Fellhollow",
+   "x": "Eleven weapon recipes, up to 32 at a time. The whole willow and steel band runs on it."
+  },
+  {
+   "n": "Mystic Fibres",
+   "g": "Fibre",
+   "w": "Dowdun Reach",
+   "r": "Dowdun Reach",
+   "x": "Spins into Mystic Thread; feeds the mithril and black metal weapons."
+  },
+  {
+   "n": "Desert Weed",
+   "g": "Fibre",
+   "w": "Desert plants across the sands",
+   "r": "Umbral Sands",
+   "x": "Spins into Desert Thread. Six weapon recipes, up to 24 at a time."
+  },
+  {
+   "n": "Fibrous Pipe Cactus",
+   "g": "Fibre",
+   "w": "Cactus across the sands",
+   "r": "Umbral Sands",
+   "x": "Source of cactus fibres."
+  },
+  {
+   "n": "Rough Cloth",
+   "g": "Cloth",
+   "w": "Loom — 3 Coarse Thread",
+   "r": "—",
+   "x": "Half of Padded Cloth. Flax is the cheap route into it."
+  },
+  {
+   "n": "Wool Cloth",
+   "g": "Cloth",
+   "w": "Loom — 3 Wool Thread",
+   "r": "—",
+   "x": "The other half of Padded Cloth."
+  },
+  {
+   "n": "Fine Cloth",
+   "g": "Cloth",
+   "w": "Loom",
+   "r": "—",
+   "x": "PL5 cloth tier."
+  },
+  {
+   "n": "Mystic Cloth",
+   "g": "Cloth",
+   "w": "Loom",
+   "r": "—",
+   "x": "PL6 cloth tier."
+  },
+  {
+   "n": "Infinity Cloth",
+   "g": "Cloth",
+   "w": "Loom with the harness — 1 Desert Cloth + 9 Shimmerscale Powder",
+   "r": "Umbral Sands",
+   "x": "PL7 cloth tier."
+  },
+  {
+   "n": "Desert Cloth",
+   "g": "Cloth",
+   "w": "Loom, from desert thread",
+   "r": "Umbral Sands",
+   "x": "Four for the Master's Staff."
+  },
+  {
+   "n": "Ash Logs",
+   "g": "Wood",
+   "w": "Ash trees",
+   "r": "Brynmoor / Ghornfell",
+   "x": "Four ash logs build the Crafting Table — the first thing to make."
+  },
+  {
+   "n": "Oak Logs",
+   "g": "Wood",
+   "w": "Oak trees",
+   "r": "Brynmoor / Ghornfell",
+   "x": "The power level 3 bow and staff line."
+  },
+  {
+   "n": "Willow Logs",
+   "g": "Wood",
+   "w": "Willow trees",
+   "r": "Fellhollow",
+   "x": "The PL4–5 bow and crossbow line."
+  },
+  {
+   "n": "Blightwood",
+   "g": "Wood",
+   "w": "Blighted and dead trees",
+   "r": "Fellhollow",
+   "x": "Five weapon recipes across the PL4–5 band."
+  },
+  {
+   "n": "Maple Logs",
+   "g": "Wood",
+   "w": "Maple trees",
+   "r": "Dowdun Reach",
+   "x": "Construction material."
+  },
+  {
+   "n": "Yew Logs",
+   "g": "Wood",
+   "w": "Yew trees",
+   "r": "Umbral Sands",
+   "x": "The PL7 bow line and the Master's Staff."
+  },
+  {
+   "n": "Anima-Infused Bark",
+   "g": "Wood",
+   "w": "Gathered, alongside anima vents",
+   "r": "Dowdun Reach / Umbral Sands",
+   "x": "One of the two Runecrafting materials. Also in the Crystal Bow and Oak Battlestaff."
+  },
+  {
+   "n": "Hollow Bark",
+   "g": "Wood",
+   "w": "Fellhollow",
+   "r": "Fellhollow",
+   "x": "Sixteen for the Splitbark Staff."
+  },
+  {
+   "n": "Swamp Tar",
+   "g": "Component",
+   "w": "Gathered off the ground in the Whispering Swamp",
+   "r": "Brynmoor",
+   "x": "Not mined and not dropped. Its only use is the Kiln, where it becomes Adhesive one-for-one."
+  },
+  {
+   "n": "Charcoal",
+   "g": "Component",
+   "w": "Kiln, from any logs",
+   "r": "All regions",
+   "x": "Fuel for the plain furnace, and one third of a fuel pellet. Easy to under-stock before a smelting session."
+  },
+  {
+   "n": "Fuel Pellet",
+   "g": "Component",
+   "w": "Blacksmith's Bench — 1 Charcoal + 1 Adhesive + 1 Coarse Animal Fur",
+   "r": "All regions",
+   "x": "The Blast Furnace runs on nothing else. Three separate supply lines converge here — woodcutting, a swamp trip and animal drops — so it catches people out at the steel gate."
+  },
+  {
+   "n": "Weapon Barbs",
+   "g": "Component",
+   "w": "Made from adhesive",
+   "r": "—",
+   "x": "One of the four things adhesive feeds."
+  },
+  {
+   "n": "Green Dragonhide Leather",
+   "g": "Hide",
+   "w": "Tannery, from green dragon hide",
+   "r": "Fellhollow",
+   "x": "The tanned form used in ranged armour."
+  },
+  {
+   "n": "Adhesive",
+   "g": "Component",
+   "w": "Kiln — 1 Swamp Tar",
+   "r": "Brynmoor",
+   "x": "The hidden cost inside every Hard Leather."
+  },
+  {
+   "n": "Acrid Adhesive",
+   "g": "Component",
+   "w": "Kiln — 3 Kalphite Ichor",
+   "r": "Umbral Sands",
+   "x": "Eight weapon recipes, up to 14 at a time."
+  },
+  {
+   "n": "Swamp Weed",
+   "g": "Component",
+   "w": "Swamp plants",
+   "r": "Brynmoor / Fellhollow",
+   "x": "Eight weapon recipes across the PL4–5 band."
+  },
+  {
+   "n": "Ground Gypsum",
+   "g": "Component",
+   "w": "Grindstone — 1 Gypsum",
+   "r": "Umbral Sands",
+   "x": "Seven recipes want it. Every power level 7 recipe passes through gypsum."
+  },
+  {
+   "n": "Gypsum Wax",
+   "g": "Component",
+   "w": "Brewing Cauldron — 3 Ground Gypsum + 1 Dihydrogen Monoxide + 1 Acrid Adhesive",
+   "r": "Umbral Sands",
+   "x": "Gated behind Icthlarin's Little Helper and the Umbral Sands merchant quest."
+  },
+  {
+   "n": "Dihydrogen Monoxide",
+   "g": "Component",
+   "w": "Water, collected anywhere",
+   "r": "All regions",
+   "x": "Seven PL7 recipes, 2–4 each. Yes, it's water."
+  },
+  {
+   "n": "Rune Essence",
+   "g": "Component",
+   "w": "Mined; the Rune Altar turns it into runes",
+   "r": "Umbral Sands +",
+   "x": "With anima-infused bark, the whole of Runecrafting's material list."
+  },
+  {
+   "n": "Wild Anima",
+   "g": "Component",
+   "w": "Anima vents",
+   "r": "Dowdun Reach / Umbral Sands",
+   "x": "Six for the Blightwood Battlestaff."
+  },
+  {
+   "n": "Undead Bone",
+   "g": "Component",
+   "w": "Undead across Fellhollow",
+   "r": "Fellhollow",
+   "x": "Three recipes, up to 24 at a time."
+  },
+  {
+   "n": "Soul Fragments",
+   "g": "Component",
+   "w": "Fellhollow",
+   "r": "Fellhollow",
+   "x": "64 for the Shadow Sword — one dedicated farm."
+  },
+  {
+   "n": "Infernal Fragments",
+   "g": "Component",
+   "w": "Dowdun Reach",
+   "r": "Dowdun Reach",
+   "x": "The mithril line, up to 32 at a time."
+  },
+  {
+   "n": "Cursed Essence",
+   "g": "Component",
+   "w": "Dowdun Reach",
+   "r": "Dowdun Reach",
+   "x": "Five recipes, 3–5 each."
+  },
+  {
+   "n": "Ground Obsidian",
+   "g": "Component",
+   "w": "Grindstone — 1 Elder Curiosities",
+   "r": "Umbral Sands",
+   "x": "The outlier: the Toktz-Mej-Tal alone wants 198. Plan it as its own project."
+  },
+  {
+   "n": "Refined Obsidian",
+   "g": "Component",
+   "w": "Blast Furnace — 9 Ground Obsidian",
+   "r": "Umbral Sands",
+   "x": "The obsidian armour set runs on it, and it needs no cloth or wax."
+  },
+  {
+   "n": "Shimmerscale Powder",
+   "g": "Component",
+   "w": "Grindstone — 1 Kalphite Wing makes 2",
+   "r": "Umbral Sands",
+   "x": "36 for the Master's Staff."
+  },
+  {
+   "n": "Kalphite Shell",
+   "g": "Component",
+   "w": "Tannery — 3 Kalphite Shell Fragments + 1 Acrid Adhesive, or whole from the Kalphite Queen",
+   "r": "Umbral Sands",
+   "x": "The adamant and sceptre recipes."
+  },
+  {
+   "n": "Black Metal Scraps",
+   "g": "Component",
+   "w": "Black knights",
+   "r": "Dowdun Reach",
+   "x": "60 scraps for the Black Sword; smelt into black metal bars."
+  },
+  {
+   "n": "Sacred Oil",
+   "g": "Component",
+   "w": "Fellhollow",
+   "r": "Fellhollow",
+   "x": "Six each for the Splitbark and Necromancer's staves."
+  },
+  {
+   "n": "Demonic Oil",
+   "g": "Component",
+   "w": "Demons",
+   "r": "Dowdun Reach",
+   "x": "Two for the Black Sword."
+  },
+  {
+   "n": "Poison Ichor",
+   "g": "Component",
+   "w": "Poisonous creatures",
+   "r": "Brynmoor / Fellhollow",
+   "x": "Six for the Abyssal Whip."
+  },
+  {
+   "n": "Abyssal Spine",
+   "g": "Component",
+   "w": "Abyssal creatures",
+   "r": "—",
+   "x": "One, for the Abyssal Whip."
+  },
+  {
+   "n": "Antler",
+   "g": "Component",
+   "w": "Deer and stags",
+   "r": "Brynmoor / Ghornfell",
+   "x": "Eighteen for the Hunter Stagbow."
+  },
+  {
+   "n": "Ram Horn",
+   "g": "Component",
+   "w": "Rams",
+   "r": "Ghornfell",
+   "x": "Iron Dagger and Hunter Stagbow."
+  },
+  {
+   "n": "Animal Bone",
+   "g": "Component",
+   "w": "Hunted animals",
+   "r": "All regions",
+   "x": "Ten for Ulv's Longbow; also a potion secondary."
+  },
+  {
+   "n": "Small Animal Fangs",
+   "g": "Component",
+   "w": "Small predators",
+   "r": "Brynmoor",
+   "x": "Three for the Bronze Dagger."
+  },
+  {
+   "n": "Clay Vessel",
+   "g": "Potion",
+   "w": "Pottery Wheel and Kiln, from clay",
+   "r": "All regions",
+   "x": "Required for every potion in the game — the whole brewing line sits behind it."
+  },
+  {
+   "n": "Marrentil",
+   "g": "Potion",
+   "w": "Herb plants",
+   "r": "Brynmoor",
+   "x": "The first-tier potion herb — every Weak Focused potion starts here."
+  },
+  {
+   "n": "Harralander",
+   "g": "Potion",
+   "w": "Herb plants",
+   "r": "Brynmoor / Ghornfell",
+   "x": "Second-tier herb: antipoison, lumberjack, quarrymaster and weak healing."
+  },
+  {
+   "n": "Snapdragon",
+   "g": "Potion",
+   "w": "Herb plants",
+   "r": "Ghornfell",
+   "x": "Third-tier herb: healing, attack and lesser focused artisan."
+  },
+  {
+   "n": "Toadflax",
+   "g": "Potion",
+   "w": "Herb plants",
+   "r": "Ghornfell",
+   "x": "A primary potion ingredient."
+  },
+  {
+   "n": "Kwuarm",
+   "g": "Potion",
+   "w": "Herb plants",
+   "r": "Ghornfell",
+   "x": "A primary potion ingredient."
+  },
+  {
+   "n": "Irit",
+   "g": "Potion",
+   "w": "Herb plants",
+   "r": "Ghornfell",
+   "x": "Used for the Focused Woodcutting potion. Thorny irit is the Fellhollow variant."
+  },
+  {
+   "n": "Redberries",
+   "g": "Potion",
+   "w": "Bushes and farming plots",
+   "r": "Brynmoor",
+   "x": "Potion secondary, and dried they feed eleven dishes."
+  },
+  {
+   "n": "Dwellberry",
+   "g": "Potion",
+   "w": "Bushes and farming plots",
+   "r": "Ghornfell",
+   "x": "Potion secondary. Also goes into Ulv's Longbow and the Wild Scout's Shortbow."
+  },
+  {
+   "n": "Cabbage",
+   "g": "Potion",
+   "w": "Farming plots",
+   "r": "Brynmoor",
+   "x": "The Focused Cooking potion, and fried it appears in ten dishes."
+  },
+  {
+   "n": "Bittercap Mushroom",
+   "g": "Potion",
+   "w": "Mushrooms in shaded ground",
+   "r": "Brynmoor / Fellhollow",
+   "x": "Both antipoison potions, and grilled it gives Fungal Fortitude."
+  },
+  {
+   "n": "Crossbow Limbs",
+   "g": "Component",
+   "w": "Blacksmith's Bench, from bars of the matching tier",
+   "r": "—",
+   "x": "Every crossbow needs its own limbs as a separate craft. Adamant limbs take 2 adamant bars."
+  }
+ ],
+ "quests": [
+  {
+   "n": "First Steps",
+   "k": "Primary",
+   "r": "Brynmoor",
+   "s": "Starts automatically with a new character.",
+   "a": "Temple Woods"
+  },
+  {
+   "n": "Getting Started",
+   "k": "Primary",
+   "r": "Brynmoor",
+   "s": "Speak to Doric just outside the temple.",
+   "a": "Temple Woods"
+  },
+  {
+   "n": "Ratcatcher",
+   "k": "Primary",
+   "r": "Brynmoor",
+   "s": "Speak to Vannaka near the old windmill.",
+   "a": "Temple Woods"
+  },
+  {
+   "n": "Rune Mysteries",
+   "k": "Primary",
+   "r": "Brynmoor",
+   "s": "Speak to Zanik on the path leading to Bramblemead Valley.",
+   "a": "Temple Woods"
+  },
+  {
+   "n": "Dragon Slayer",
+   "k": "Primary",
+   "r": "Brynmoor / Ghornfell",
+   "s": "Speak to the Wise Old Man in Bramblemead Village. Ends with Velgar at Velgar's Rise.",
+   "a": "Bramblemead Village"
+  },
+  {
+   "n": "Withering Heights",
+   "k": "Primary",
+   "r": "Fellhollow",
+   "s": "Speak to the Wise Old Man near Ashien's Watch. Three curse fragments, then Imaru at Hope's Fall.",
+   "a": "Ashien's Watch"
+  },
+  {
+   "n": "Black Knight's Fortress",
+   "k": "Primary",
+   "r": "Dowdun Reach",
+   "s": "Speak to Death in the Forgotten Temple. Thirteen Dreaming Stone shards, then the Black Knight Titan.",
+   "a": "Forgotten Temple"
+  },
+  {
+   "n": "Icthlarin's Little Helper",
+   "k": "Primary",
+   "r": "Umbral Sands",
+   "s": "Interact with the door to the Umbral Sands. Ends with Fuzan in the Fight Caves.",
+   "a": "The Bastion"
+  },
+  {
+   "n": "Regicide",
+   "k": "Primary",
+   "r": "Scorned Wilderness",
+   "s": "Interact with the Dragon Gate north-west of Velgar's Rise. Added in 1.0.",
+   "a": "Dragon Gate"
+  },
+  {
+   "n": "Growing Pains",
+   "k": "Secondary",
+   "r": "Brynmoor",
+   "s": "Speak to the Wise Old Man in Bramblemead Village.",
+   "a": "Bramblemead Village"
+  },
+  {
+   "n": "Shrimp Catcher",
+   "k": "Secondary",
+   "r": "Brynmoor",
+   "s": "Tutorial-tier side quest.",
+   "a": "Brynmoor"
+  },
+  {
+   "n": "Restless Ghosts",
+   "k": "Secondary",
+   "r": "Brynmoor",
+   "s": "Interact with the crumbling well in Bramblemead Village.",
+   "a": "Bramblemead Village"
+  },
+  {
+   "n": "Goblin Diplomacy",
+   "k": "Secondary",
+   "r": "Brynmoor",
+   "s": "Speak to Zanik in Bramblemead Valley.",
+   "a": "Bramblemead Valley"
+  },
+  {
+   "n": "Highlighting the Problem",
+   "k": "Secondary",
+   "r": "Brynmoor",
+   "s": "Interact with the statue of a wizard in the Runecrafting Guild.",
+   "a": "Bramblemead Valley"
+  },
+  {
+   "n": "Granite Mauled",
+   "k": "Secondary",
+   "r": "Ghornfell",
+   "s": "Speak to Doric in the Fractured Plains.",
+   "a": "Fractured Plains"
+  },
+  {
+   "n": "Heartstrings",
+   "k": "Secondary",
+   "r": "Ghornfell",
+   "s": "Interact with the memorial on top of the hill in the Fractured Plains.",
+   "a": "Fractured Plains"
+  },
+  {
+   "n": "Dog Days",
+   "k": "Secondary",
+   "r": "Ghornfell",
+   "s": "Speak to Vannaka at the centre of the Stormtouched Highlands.",
+   "a": "Stormtouched Highlands"
+  },
+  {
+   "n": "Cook's Assistant",
+   "k": "Secondary",
+   "r": "Ghornfell",
+   "s": "Speak to Slopfinger on the southern border between Stormtouched Highlands and Fractured Plains.",
+   "a": "Region border"
+  },
+  {
+   "n": "Animal Magnetism",
+   "k": "Secondary",
+   "r": "Ghornfell",
+   "s": "Speak to Manktongue on the southern border between Stormtouched Highlands and Fractured Plains.",
+   "a": "Region border"
+  },
+  {
+   "n": "A Room With A Garou",
+   "k": "Secondary",
+   "r": "Ghornfell",
+   "s": "Speak to Caratacus in the Fractured Plains.",
+   "a": "Fractured Plains"
+  },
+  {
+   "n": "A Melody Remembered",
+   "k": "Secondary",
+   "r": "Ghornfell",
+   "s": "Repair a broken music box found in a desk in the Stormtouched Highlands.",
+   "a": "Stormtouched Highlands"
+  },
+  {
+   "n": "The Great Body Robbery",
+   "k": "Secondary",
+   "r": "Ghornfell",
+   "s": "Speak to Doctor Fenkenstrain in the Bloodblight Swamp.",
+   "a": "Bloodblight Swamp"
+  },
+  {
+   "n": "Even More Restless Ghosts",
+   "k": "Secondary",
+   "r": "Fellhollow",
+   "s": "Speak to Zanik in Fellhollow.",
+   "a": "Fellhollow"
+  },
+  {
+   "n": "The Wild Hunt",
+   "k": "Secondary",
+   "r": "Fellhollow",
+   "s": "Speak to Vannaka in Bleaksfield Valley.",
+   "a": "Bleakfields Valley"
+  },
+  {
+   "n": "Things That Go Boom In The Night",
+   "k": "Secondary",
+   "r": "Fellhollow",
+   "s": "Start point not recorded on the wiki yet.",
+   "a": "Fellhollow"
+  },
+  {
+   "n": "Seeking Salvation",
+   "k": "Secondary",
+   "r": "Fellhollow",
+   "s": "Speak to Doric east of the Lake of Lost Souls, inside a cave.",
+   "a": "Lake of Lost Souls"
+  },
+  {
+   "n": "Doric's Quest",
+   "k": "Secondary",
+   "r": "Fellhollow",
+   "s": "Start point not recorded on the wiki yet.",
+   "a": "Fellhollow"
+  },
+  {
+   "n": "Letters for the Dead",
+   "k": "Secondary",
+   "r": "Fellhollow",
+   "s": "Speak to Postie Pete in the Forgotten Temple.",
+   "a": "Forgotten Temple"
+  },
+  {
+   "n": "What Remains is Written",
+   "k": "Secondary",
+   "r": "Fellhollow",
+   "s": "Speak to Abraxus The Eternal in Coalridge Pass.",
+   "a": "Coalridge Pass"
+  },
+  {
+   "n": "Mirror, Mirror",
+   "k": "Secondary",
+   "r": "Fellhollow",
+   "s": "Interact with the mirror west of the Guthix shrine near Emberwood.",
+   "a": "Emberwood"
+  },
+  {
+   "n": "Biohazard",
+   "k": "Secondary",
+   "r": "Dowdun Reach",
+   "s": "Attack the corrupted raven in The Courtyard and pick up its drop.",
+   "a": "The Courtyard"
+  },
+  {
+   "n": "Wanted!",
+   "k": "Secondary",
+   "r": "Dowdun Reach",
+   "s": "Speak to Vannaka in The Courtyard.",
+   "a": "The Courtyard"
+  },
+  {
+   "n": "What's Theirs is Mine!",
+   "k": "Secondary",
+   "r": "Dowdun Reach",
+   "s": "Speak to Doric next to the Dreaming Stone in The Nexus.",
+   "a": "The Nexus"
+  },
+  {
+   "n": "Contact!",
+   "k": "Secondary",
+   "r": "Umbral Sands",
+   "s": "Speak to Avisk Crystal in the Dunes of Uzzer.",
+   "a": "Dunes of Uzzer"
+  },
+  {
+   "n": "Brink of Extinction",
+   "k": "Secondary",
+   "r": "Umbral Sands",
+   "s": "Speak to Zi at The Burning Spire, south of the Sinking Pyramid.",
+   "a": "The Burning Spire"
+  },
+  {
+   "n": "Mapping The Sands I",
+   "k": "Secondary",
+   "r": "Umbral Sands",
+   "s": "Speak to Anamcara in Alcarrid Camp.",
+   "a": "Alcarrid Camp"
+  },
+  {
+   "n": "Mapping The Sands II",
+   "k": "Secondary",
+   "r": "Umbral Sands",
+   "s": "Follows Mapping The Sands I.",
+   "a": "Alcarrid Camp"
+  }
+ ]
+}
