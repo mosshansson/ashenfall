@@ -3515,6 +3515,12 @@ buildMapFilters(); drawMap(); buildQuests(); buildRecipes(); buildMaterials(); b
   const put=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
 
   const CHANGES=[
+    {v:"9.0",d:"2026-09-19",items:[
+      "Export everything and Restore everything on the Share tab. Browser storage is tied to the address, so opening the app from a file and from a web address gave two separate sets with no way to move between them short of three separate exports.",
+      "One file now carries pins, routes, marker types, quests, finds, planner contents, stock, imported wiki data and language choice."]},
+    {v:"8.9",d:"2026-09-19",items:[
+      "When the app is hosted rather than opened as a file, it looks for ashenfall-data.json beside itself and loads it on first run. Nobody you share it with has to import anything.",
+      "It only does this once, so it never overwrites data someone has imported themselves, and it is skipped entirely for a local file."]},
     {v:"8.8",d:"2026-09-19",items:[
       "New Help tab: a short tour of every feature, in English and Swedish, following the language button.",
       "Separate Swedish setup guide for sharing, covering both iPhone and desktop."]},
@@ -6614,6 +6620,97 @@ buildMapFilters(); drawMap(); buildQuests(); buildRecipes(); buildMaterials(); b
   if(lang) lang.addEventListener('click',()=>setTimeout(()=>{ btn.textContent = sv()? 'Hjälp' : 'Help'; render(); },0));
 
   render();
+})();
+</script>
+<script>
+/* =========================================================
+   When hosted, pick up a data file sitting beside the page
+   so nobody has to import anything by hand.
+   ========================================================= */
+(function(){
+  if(location.protocol==='file:') return;              // no origin, no fetch
+  if(typeof fetch!=='function') return;
+  try{ if(localStorage.getItem('dw.autodata')) return; }catch(e){ return; }
+
+  fetch('ashenfall-data.json',{cache:'no-cache'})
+    .then(r=>r.ok? r.json() : null)
+    .then(d=>{
+      if(!d) return;
+      const keep=(key,store,list,ls)=>{
+        if(!d[key]) return 0;
+        const rows=Array.isArray(d[key])? d[key] : Object.values(d[key]);
+        const m={}; rows.forEach(i=>{ if(i&&i.n) m[String(i.n).toLowerCase().trim()]=i; });
+        if(!Object.keys(m).length) return 0;
+        window[store]=Object.assign(window[store]||{}, m);
+        window[list]=Object.values(window[store]);
+        try{ localStorage.setItem(ls, JSON.stringify(window[store])); }catch(e){}
+        return Object.keys(m).length;
+      };
+      const n = keep('items','ITEMINFO','ITEMINFO_LIST','dw.iteminfo')
+              + keep('sources','SRCINFO','SRCINFO_LIST','dw.sources')
+              + keep('shops','SHOPINFO','SHOPINFO_LIST','dw.shops')
+              + keep('npcs','NPCINFO','NPCINFO_LIST','dw.npcs')
+              + keep('perks','PERKINFO','PERKINFO_LIST','dw.perks');
+      if(!n) return;
+      try{ localStorage.setItem('dw.autodata','1'); }catch(e){}
+      if(window.buildMaterials) window.buildMaterials();
+      const s=document.getElementById('dataStatus');
+      if(s) s.textContent='Loaded '+n+' entries from the data file beside this page.';
+    })
+    .catch(()=>{});                                     // no file there, carry on
+})();
+</script>
+<script>
+/* =========================================================
+   Move everything between browsers in one file
+   ========================================================= */
+(function(){
+  const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+  const sec=document.getElementById('tab-party');
+  if(!sec) return;
+
+  const panel=el('div','panel'); panel.style.marginTop='12px';
+  panel.appendChild(el('h3',null,'Move to another browser'));
+  const p=el('p','small muted'); p.style.margin='6px 0 0';
+  p.textContent='Everything is stored per browser and per address, so opening the app from a file and from a web address gives you two separate sets. This moves the lot in one go — pins, routes, marker types, quests, finds, planner, stock, imported wiki data and your language choice.';
+  panel.appendChild(p);
+
+  const bar=el('div'); bar.style.cssText='display:flex;gap:8px;flex-wrap:wrap;margin-top:12px';
+  const out=el('button','btn primary','Export everything');
+  const inLab=el('label','btn','Restore everything'); inLab.style.cursor='pointer';
+  const inp=document.createElement('input'); inp.type='file'; inp.accept='application/json'; inp.style.display='none';
+  inLab.appendChild(inp);
+  bar.appendChild(out); bar.appendChild(inLab); panel.appendChild(bar);
+  const msg=el('p','small'); msg.style.margin='10px 0 0'; panel.appendChild(msg);
+
+  const keys=()=>{ const k=[]; for(let i=0;i<localStorage.length;i++){ const n=localStorage.key(i); if(n&&n.startsWith('dw.')) k.push(n); } return k; };
+
+  out.addEventListener('click',()=>{
+    const bundle={app:'ashenfall-companion',kind:'everything',at:new Date().toISOString(),store:{}};
+    keys().forEach(k=>{ try{ bundle.store[k]=localStorage.getItem(k); }catch(e){} });
+    const n=Object.keys(bundle.store).length;
+    const a=document.createElement('a');
+    a.href=URL.createObjectURL(new Blob([JSON.stringify(bundle)],{type:'application/json'}));
+    a.download='ashenfall-everything.json'; a.click(); URL.revokeObjectURL(a.href);
+    msg.textContent='Exported '+n+' stored items. Open the app in the other browser and press Restore there.';
+  });
+
+  inp.addEventListener('change',e=>{
+    const f=e.target.files[0]; if(!f) return;
+    const rd=new FileReader();
+    rd.onload=()=>{
+      try{
+        const d=JSON.parse(rd.result);
+        if(d.kind!=='everything'||!d.store) throw new Error('not a full backup');
+        let n=0;
+        Object.keys(d.store).forEach(k=>{ try{ localStorage.setItem(k,d.store[k]); n++; }catch(err){} });
+        msg.textContent='Restored '+n+' stored items. Reload the page to see it all.';
+      }catch(err){ msg.textContent='That is not a full backup file ('+err.message+').'; }
+    };
+    rd.readAsText(f);
+  });
+
+  sec.appendChild(panel);
 })();
 </script>
 </body>
