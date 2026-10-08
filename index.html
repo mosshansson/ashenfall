@@ -683,7 +683,7 @@ header.top h1 em{font-style:normal;color:var(--ink)}
 
 
 <footer class="src">
-  Compiled 18 Sep 2026 from the RuneScape: Dragonwilds Wiki (weirdgloop) and the community runescape-dragonwilds.wiki guides.
+  Compiled 8 Oct 2026 from the RuneScape: Dragonwilds Wiki (weirdgloop) and the community runescape-dragonwilds.wiki guides.
   Recipes list what the bench asks for. Use Show tree on an item, or Raw materials in the planner, to expand them down to what you gather.
   Covers craftable items only — stations and construction are left out, since the game's build menu already handles those well. Fan-made; not affiliated with Jagex.
 </footer>
@@ -833,7 +833,7 @@ const RECIPES = [
   {n:"Adventurer's Longbow",pl:2,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[16,"Ash Logs"],[6,"Flax"]]},
   {n:"Ash Battlestaff",pl:2,st:"Crafting Table",cat:"Magic",kind:"Weapon",mats:[[12,"Ash Logs"],[6,"Rune Essence"],[2,"Flax"]]},
   {n:"Ash Shortbow",pl:2,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[12,"Ash Logs"],[3,"Flax"]]},
-  {n:"Bronze Crossbow",pl:3,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[12,"Oak Logs"],[6,"Fleece"],[1,"Bronze Crossbow Limbs"],[1,"Opal"]]},
+  {n:"Bronze Crossbow",pl:3,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[12,"Oak Logs"],[6,"Wool Thread"],[1,"Bronze Crossbow Limbs"],[1,"Opal"]]},
   {n:"Bronze Dagger",pl:3,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[[3,"Small Animal Fangs"],[6,"Bronze Bar"],[1,"Fleece"]]},
   {n:"Bronze Greatsword",pl:3,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[[10,"Bronze Bar"],[4,"Animal Hide"],[2,"Fleece"]]},
   {n:"Bronze Sword",pl:3,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[[4,"Animal Hide"],[8,"Bronze Bar"],[1,"Fleece"]]},
@@ -845,14 +845,13 @@ const RECIPES = [
   {n:"Abyssal Whip",pl:4,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[[12,"Swamp Weed"],[12,"Vault Shard"],[12,"Hard Leather"],[6,"Poison Ichor"],[1,"Abyssal Spine"],[1,"Vault Core"]]},
   {n:"Blightwood Longbow",pl:4,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[12,"Blightwood"],[6,"Swamp Weed"],[4,"Jade"],[4,"Vault Shard"],[4,"Iron Bar"]]},
   {n:"Blightwood Shortbow",pl:4,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[8,"Blightwood"],[4,"Vault Shard"],[3,"Swamp Weed"],[1,"Jade"],[1,"Iron Bar"]]},
-  {n:"Blurite Crossbow",pl:4,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[12,"Blightwood"],[6,"Swamp Weed"],[4,"Vault Shard"],[1,"Blurite Crossbow Limbs"],[1,"Jade"]]},
-  {n:"Dorgeshuun Crossbow",pl:4,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[12,"Willow Logs"],[6,"Swamp Weed"],[4,"Vault Shard"],[1,"Bone Crossbow Limbs"],[1,"Jade"]]},
+  {n:"Dorgeshuun Crossbow",pl:4,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[12,"Willow Logs"],[6,"Swamp Thread"],[4,"Vault Shard"],[1,"Bone Crossbow Limbs"],[1,"Jade"]]},
   {n:"Hunter Stagbow",pl:4,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[18,"Antler"],[6,"Ram Horn"],[4,"Jade"],[4,"Swamp Weed"],[4,"Vault Shard"]]},
-  {n:"Iron Crossbow",pl:4,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[12,"Blightwood"],[6,"Swamp Weed"],[4,"Vault Shard"],[1,"Iron Crossbow Limbs"],[1,"Jade"]]},
+  {n:"Iron Crossbow",pl:4,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[12,"Blightwood"],[6,"Swamp Thread"],[4,"Vault Shard"],[1,"Iron Crossbow Limbs"],[1,"Jade"]]},
   {n:"Iron Dagger",pl:4,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[[6,"Iron Bar"],[4,"Vault Shard"],[3,"Ram Horn"],[1,"Fleece"]]},
   {n:"Iron Greatsword",pl:4,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[[10,"Iron Bar"],[4,"Vault Shard"],[4,"Hard Leather"],[2,"Fleece"]]},
   {n:"Iron Sword",pl:4,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[[8,"Iron Bar"],[4,"Vault Shard"],[4,"Hard Leather"],[1,"Fleece"]]},
-  {n:"Steel Crossbow",pl:4,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[24,"Corpse Cotton"],[16,"Willow Logs"],[6,"Vault Shard"],[2,"Jade"],[1,"Steel Crossbow Limbs"]]},
+  {n:"Steel Crossbow",pl:5,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[16,"Willow Logs"],[6,"Fine Thread"],[2,"Jade"],[1,"Steel Crossbow Limbs"]]},
   {n:"Blightwood Battlestaff",pl:5,st:"Mystic Forge",cat:"Magic",kind:"Weapon",mats:[[12,"Blightwood"],[6,"Wild Anima"],[4,"Vault Shard"],[3,"Swamp Weed"]]},
   {n:"Shadow Sword",pl:5,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[[64,"Soul Fragments"],[16,"Corpse Cotton"],[6,"Vault Shard"],[5,"Dragonwolf Hide"]]},
   {n:"Splitbark Staff",pl:5,st:"Mystic Forge",cat:"Magic",kind:"Weapon",mats:[[16,"Corpse Cotton"],[16,"Hollow Bark"],[6,"Sacred Oil"],[6,"Vault Shard"]]},
@@ -863,13 +862,13 @@ const RECIPES = [
   {n:"Undead Ranger's Bow",pl:5,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[16,"Corpse Cotton"],[16,"Undead Bone"],[6,"Vault Shard"],[2,"Sapphire"],[2,"Steel Bar"]]},
   {n:"Willow Longbow",pl:5,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[32,"Corpse Cotton"],[16,"Willow Logs"],[6,"Vault Shard"],[4,"Sapphire"],[4,"Steel Bar"]]},
   {n:"Willow Shortbow",pl:5,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[16,"Corpse Cotton"],[10,"Willow Logs"],[6,"Vault Shard"],[2,"Sapphire"],[2,"Steel Bar"]]},
-  {n:"Black Sword",pl:6,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[[60,"Black Metal Scraps"],[30,"Coal"],[16,"Mystic Fibres"],[10,"Draconic Leather"],[5,"Cursed Essence"],[2,"Demonic Oil"]]},
+  {n:"Black Sword",pl:6,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[[10,"Black Metal Bar"],[5,"Cursed Leather"],[4,"Mystic Thread"],[2,"Demonic Oil"]],note:"The recipe is called Shattered Black Blade, after the vestige that unlocks it."},
   {n:"Mithril Dagger",pl:6,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[[18,"Infernal Fragments"],[12,"Mystic Fibres"],[8,"Mithril Bar"],[6,"Draconic Leather"],[3,"Cursed Essence"]]},
   {n:"Mithril Greatsword",pl:6,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[[32,"Infernal Fragments"],[16,"Mystic Fibres"],[12,"Mithril Bar"],[10,"Draconic Leather"],[5,"Cursed Essence"]]},
   {n:"Mithril Scimitar",pl:6,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[[16,"Infernal Fragments"],[10,"Draconic Leather"],[10,"Mithril Bar"],[5,"Cursed Essence"],[3,"Mystic Thread"]]},
   {n:"Mithril Sword",pl:6,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[[18,"Infernal Fragments"],[12,"Mystic Fibres"],[10,"Draconic Leather"],[10,"Mithril Bar"],[5,"Cursed Essence"]]},
   {n:"Necromancer's Staff",pl:6,st:"Mystic Forge",cat:"Magic",kind:"Weapon",mats:[[24,"Undead Bone"],[16,"Corpse Cotton"],[6,"Sacred Oil"],[6,"Vault Shard"]]},
-  {n:"Adamant Crossbow",pl:7,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[18,"Desert Weed"],[16,"Yew Logs"],[6,"Ground Gypsum"],[2,"Acrid Adhesive"],[2,"Dihydrogen Monoxide"],[1,"Adamant Crossbow Limbs"],[1,"Dragonstone"]]},
+  {n:"Adamant Crossbow",pl:7,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[16,"Yew Logs"],[6,"Desert Thread"],[2,"Gypsum Wax"],[1,"Adamant Crossbow Limbs"],[1,"Dragonstone"]]},
   {n:"Adamant Sword",pl:7,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[[10,"Kalphite Shell"],[10,"Adamant Bar"],[9,"Desert Weed"],[7,"Acrid Adhesive"],[6,"Ground Gypsum"],[5,"Draconic Leather"],[2,"Dihydrogen Monoxide"]]},
   {n:"Bow of Elidinis",pl:7,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[24,"Desert Weed"],[12,"Ground Gypsum"],[12,"Gold Bar"],[12,"Silver Bar"],[4,"Acrid Adhesive"],[4,"Dihydrogen Monoxide"],[4,"Dragonstone"]]},
   {n:"Master's Staff",pl:7,st:"Mystic Forge",cat:"Magic",kind:"Weapon",mats:[[54,"Ground Obsidian"],[36,"Shimmerscale Powder"],[16,"Yew Logs"],[12,"Ground Gypsum"],[4,"Acrid Adhesive"],[4,"Desert Cloth"],[4,"Dihydrogen Monoxide"],[4,"Dragonstone"]]},
@@ -884,15 +883,19 @@ const RECIPES = [
   {n:"Mithril Bar",pl:6,st:"Blast Furnace",cat:"Processing",kind:"Bar",mats:[[3,"Mithril Ore"],[3,"Coal"]]},
   {n:"Adamant Bar",pl:7,st:"Blast Furnace",cat:"Processing",kind:"Bar",mats:[[3,"Adamantite Ore"],[3,"Coal"]]},
   {n:"Leather",pl:0,st:"Tannery",cat:"Component",kind:"Leather",mats:[[1,"Animal Hide"]],alts:[[[1,"Animal Hide Scraps"]]]},
-  {n:"Gold Bar",pl:0,st:"Furnace",cat:"Component",kind:"Bar",mats:[[3,"Gold Ore"]]},
+  {n:"Silver Bar",pl:0,st:"Furnace",cat:"Processing",kind:"Bar",mats:[[3,"Silver Ore"]]},
+  {n:"Gold Bar",pl:0,st:"Furnace",cat:"Processing",kind:"Bar",mats:[[3,"Gold Ore"]]},
+  {n:"Black Crossbow Limbs",pl:6,st:"Blacksmith's Bench",cat:"Component",kind:"Limbs",mats:[[2,"Black Metal Bar"]]},
+  {n:"Mithril Crossbow Limbs",pl:6,st:"Blacksmith's Bench",cat:"Component",kind:"Limbs",mats:[[2,"Mithril Bar"]]},
+  {n:"Shadow Crossbow",pl:6,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[16,"Maple Logs"],[6,"Mystic Thread"],[2,"Demonic Oil"],[1,"Black Crossbow Limbs"]]},
+  {n:"Mithril Crossbow",pl:6,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[18,"Infernal Fragments"],[16,"Maple Logs"],[6,"Mystic Thread"],[1,"Mithril Crossbow Limbs"]]},
   {n:"Adamant Crossbow Limbs",pl:7,st:"Blacksmith's Bench",cat:"Component",kind:"Limbs",mats:[[2,"Adamant Bar"]]},
-  {n:"Bronze Crossbow Limbs",pl:3,st:"Blacksmith's Bench",cat:"Component",kind:"Limbs",mats:[],note:"The adamant limbs take 2 bars, so this is likely 2 bronze bars — not sourced, so check the bench."},
-  {n:"Iron Crossbow Limbs",pl:4,st:"Blacksmith's Bench",cat:"Component",kind:"Limbs",mats:[],note:"Quantity not sourced — likely 2 iron bars by the adamant pattern."},
-  {n:"Steel Crossbow Limbs",pl:4,st:"Blacksmith's Bench",cat:"Component",kind:"Limbs",mats:[],note:"Quantity not sourced."},
-  {n:"Blurite Crossbow Limbs",pl:4,st:"Blacksmith's Bench",cat:"Component",kind:"Limbs",mats:[],note:"Made from blurite ore. Quantity not sourced."},
-  {n:"Bone Crossbow Limbs",pl:4,st:"Blacksmith's Bench",cat:"Component",kind:"Limbs",mats:[],note:"Made from bone rather than metal. Quantity not sourced."},
+  {n:"Bronze Crossbow Limbs",pl:3,st:"Blacksmith's Bench",cat:"Component",kind:"Limbs",mats:[[2,"Bronze Bar"]]},
+  {n:"Iron Crossbow Limbs",pl:4,st:"Blacksmith's Bench",cat:"Component",kind:"Limbs",mats:[[2,"Iron Bar"]]},
+  {n:"Steel Crossbow Limbs",pl:5,st:"Blacksmith's Bench",cat:"Component",kind:"Limbs",mats:[[2,"Steel Bar"]]},
+  {n:"Bone Crossbow Limbs",pl:4,st:"Blacksmith's Bench",cat:"Component",kind:"Limbs",mats:[[2,"Undead Bone"]]},
   {n:"Hard Leather",pl:0,st:"Tannery",cat:"Component",kind:"Leather",mats:[[2,"Leather"],[1,"Adhesive"]]},
-  {n:"Dire Wolf Leather",pl:4,st:"Tannery",cat:"Component",kind:"Leather",mats:[],note:"Tanned from dire wolf hide. Quantities not sourced — check the wiki."},
+  {n:"Dire Wolf Leather",pl:4,st:"Tannery",cat:"Component",kind:"Leather",mats:[[1,"Dire Wolf Hide"]]},
   {n:"Draconic Leather",pl:5,st:"Tannery",cat:"Component",kind:"Leather",mats:[[1,"Dragonwolf Hide"]],alts:[[[1,"Dragon Blood"],[3,"Hard Leather"]]],note:"The wiki's recipe tree shows hide alone; a hard-leather-and-dragon-blood route is also reported."},
   {n:"Cursed Leather",pl:6,st:"Tannery",cat:"Component",kind:"Leather",mats:[[2,"Draconic Leather"],[1,"Cursed Essence"]]},
   {n:"Scorch Leather",pl:7,st:"Advanced Tannery",cat:"Component",kind:"Leather · Artisan 40",mats:[[1,"Draconic Leather"],[2,"Kalphite Shell"],[1,"Acrid Adhesive"]]},
@@ -903,21 +906,21 @@ const RECIPES = [
   {n:"Fuel Pellet",pl:0,st:"Blacksmith's Bench",cat:"Component",kind:"Fuel",mats:[[1,"Charcoal"],[1,"Adhesive"],[1,"Coarse Animal Fur"]],note:"The only thing a Blast Furnace will burn — wood, charcoal and coal are all rejected. Unlocks once you pick up coal and build the furnace. Also drops from salvage and Umbral Sands chests."},
   {n:"Coarse Thread",pl:0,st:"Spinning Wheel",cat:"Component",kind:"Thread",mats:[[1,"Flax"]],alts:[[[3,"Coarse Animal Fur"]]],note:"Flax is one-for-one; fur takes three. Flax grows thickly around the starting village and respawns fast."},
   {n:"Fine Thread",pl:5,st:"Spinning Wheel",cat:"Component",kind:"Thread",mats:[[4,"Corpse Cotton"]]},
-  {n:"Mystic Thread",pl:6,st:"Spinning Wheel",cat:"Component",kind:"Thread",mats:[],note:"Spun from mystic fibres. Exact quantity not sourced — check the wiki."},
+  {n:"Mystic Thread",pl:6,st:"Spinning Wheel",cat:"Component",kind:"Thread",mats:[[4,"Mystic Fibres"]]},
   {n:"Desert Thread",pl:7,st:"Spinning Wheel",cat:"Component",kind:"Thread",mats:[[3,"Desert Weed"]]},
   {n:"Rough Cloth",pl:0,st:"Loom",cat:"Component",kind:"Cloth",mats:[[3,"Coarse Thread"]]},
   {n:"Wool Cloth",pl:0,st:"Loom",cat:"Component",kind:"Cloth",mats:[[3,"Wool Thread"]]},
   {n:"Fine Cloth",pl:5,st:"Loom + Loom Harness",cat:"Component",kind:"Cloth",mats:[[3,"Fine Thread"],[1,"Gold Bar"]],note:"That is 12 corpse cotton and 3 gold ore once expanded."},
-  {n:"Mystic Cloth",pl:6,st:"Loom",cat:"Component",kind:"Cloth",mats:[],note:"Woven on the base loom. Ingredients not sourced — check the wiki."},
+  {n:"Mystic Cloth",pl:6,st:"Loom",cat:"Component",kind:"Cloth",mats:[[3,"Mystic Thread"]]},
   {n:"Infinity Cloth",pl:7,st:"Loom + Loom Harness",cat:"Component",kind:"Cloth",mats:[[1,"Desert Cloth"],[9,"Shimmerscale Powder"]]},
   {n:"Vis Cloth",pl:8,st:"Loom + Loom Harness",cat:"Component",kind:"Cloth · Artisan 20",mats:[[2,"Vis Fibres"],[2,"Draconic Vis Wax"]],note:"Cut from 3+3 to 2+2 in the 25 September patch."},
   {n:"Vis Fibres",pl:8,st:"Advanced Spinning Wheel",cat:"Component",kind:"Thread",mats:[[3,"Harmonised Compound"],[3,"Ground Rune Essence"]]},
   {n:"Draconic Vis Wax",pl:8,st:"Brewing Cauldron",cat:"Component",kind:"Wax",mats:[[3,"Harmonised Compound"],[3,"Ground Rune Essence"],[3,"Ground Dragon Tooth"]],note:"The only recipe that consumes Ground Dragon Tooth."},
-  {n:"Harmonised Compound",pl:8,st:"Kiln",cat:"Component",kind:"Compound",mats:[[1,"Discordant Residue"]],note:"Quantity not sourced. This single material gates vis fibres, the wax and therefore all vis cloth."},
-  {n:"Black Dragon Leather",pl:8,st:"Advanced Tannery",cat:"Component",kind:"Leather",mats:[[1,"Black Dragon Hide"],[1,"Dragon Blood"],[1,"Ground Rune Essence"]],note:"Quantities not sourced. Sits outside the cloth chain — no harmonised compound needed."},
+  {n:"Harmonised Compound",pl:8,st:"Kiln",cat:"Component",kind:"Compound",mats:[[1,"Discordant Residue"]],note:"One for one. This single material gates vis fibres, the wax and therefore all vis cloth."},
+  {n:"Black Dragon Leather",pl:8,st:"Advanced Tannery",cat:"Component",kind:"Leather",mats:[[1,"Black Dragon Hide"],[1,"Dragon Blood"],[1,"Ground Rune Essence"]],note:"Sits outside the cloth chain \u2014 no harmonised compound needed."},
   {n:"Ground Rune Essence",pl:8,st:"Grindstone",cat:"Component",kind:"Powder",mats:[[1,"Rune Essence"]]},
   {n:"Ground Dragon Tooth",pl:8,st:"Grindstone",cat:"Component",kind:"Powder",mats:[[1,"Dragon Tooth"]]},
-  {n:"Rune Bar",pl:8,st:"Blast Furnace",cat:"Component",kind:"Bar",mats:[[3,"Rune Ore"],[3,"Luminite"]],note:"Luminite takes the place coal holds in the lower bars — it is a second ore, not a fuel."},
+  {n:"Rune Bar",pl:8,st:"Blast Furnace",cat:"Processing",kind:"Bar",mats:[[3,"Rune Ore"],[3,"Luminite"]],note:"Luminite takes the place coal holds in the lower bars — it is a second ore, not a fuel."},
   {n:"Desert Cloth",pl:7,st:"Loom + Loom Harness",cat:"Component",kind:"Cloth",mats:[[3,"Desert Thread"],[3,"Cactus Fibres"]]},
   {n:"Cactus Fibres",pl:7,st:"Tannery",cat:"Component",kind:"Fibre",out:3,mats:[[1,"Fibrous Pipe Cactus"]],note:"One cactus yields three fibres."},
   {n:"Shimmerscale Powder",pl:7,st:"Grindstone",cat:"Component",kind:"Powder",out:2,mats:[[1,"Kalphite Wing"]],note:"One wing grinds into two."},
@@ -932,11 +935,10 @@ const RECIPES = [
   {n:"Ground Granite",pl:0,st:"Grindstone",cat:"Component",kind:"Powder",mats:[[1,"Granite"]]},
   {n:"Ground Clay",pl:0,st:"Grindstone",cat:"Component",kind:"Powder",mats:[[1,"Clay"]]},
   {n:"Bag of Flour",pl:0,st:"Grindstone",cat:"Component",kind:"Food staple",mats:[[1,"Wheat"]],note:"One wheat, one bag. Bread is the biggest consumer of it."},
-  {n:"Blurite Bar",pl:4,st:"Furnace",cat:"Component",kind:"Bar",mats:[],note:"Smelted from blurite ore. Ratio not sourced — the other plain bars take three ore."},
-  {n:"Black Metal Bar",pl:6,st:"Blast Furnace",cat:"Component",kind:"Bar",mats:[],note:"Smelted from black metal scraps. Ratio not sourced."},
-  {n:"Blue Dragon Leather",pl:6,st:"Advanced Tannery",cat:"Component",kind:"Leather",mats:[],note:"Tanned from blue dragon scale. Quantities not sourced."},
-  {n:"Necrotic Bonemeal",pl:5,st:"Grindstone",cat:"Component",kind:"Powder",mats:[],note:"Ground from undead bone. Quantity not sourced."},
-  {n:"Fire Oil",pl:0,st:"Brewing Cauldron",cat:"Component",kind:"Oil",mats:[],note:"Ingredients not sourced."},
+  {n:"Black Metal Bar",pl:6,st:"Blast Furnace",cat:"Processing",kind:"Bar",mats:[[6,"Black Metal Scraps"],[3,"Coal"]],note:"Six scraps to three coal — the only bar that is not an even split."},
+  {n:"Blue Dragon Leather",pl:6,st:"Advanced Tannery",cat:"Component",kind:"Leather",out:2,mats:[[1,"Blue Dragon Hide"]],note:"One hide makes two leather, which is why the bench shows 0.5 per piece."},
+  {n:"Necrotic Bonemeal",pl:5,st:"Grindstone",cat:"Component",kind:"Powder",mats:[[3,"Undead Bone"]]},
+  {n:"Fire Oil",pl:0,st:"Brewing Cauldron",cat:"Component",kind:"Oil",mats:[[1,"Naptha"],[1,"Coarse Thread"]]},
   {n:"Wool Thread",pl:0,st:"Spinning Wheel",cat:"Component",kind:"Thread",mats:[[3,"Soft Animal Fur"]],alts:[[[1,"Fleece"]]],note:"The fleece route is usually cheaper."},
   {n:"Padded Cloth",pl:4,st:"Loom + Loom Harness",cat:"Component",kind:"Cloth",mats:[[1,"Rough Cloth"],[1,"Wool Cloth"]],note:"The loom harness must be built and placed near the loom."},
   {n:"Bronze Helmet",pl:3,st:"Armour Bench",cat:"Armour",kind:"Melee armour",mats:[[4,"Bronze Bar"],[2,"Hard Leather"],[1,"Fleece"]]},
@@ -947,7 +949,7 @@ const RECIPES = [
   {n:"Iron Platelegs",pl:4,st:"Armour Bench",cat:"Armour",kind:"Melee armour",mats:[[6,"Iron Bar"],[4,"Hard Leather"],[3,"Padded Cloth"],[2,"Vault Shard"]]},
   {n:"Paladin's Helm",pl:4,st:"Armour Bench",cat:"Armour",kind:"Melee armour",mats:[[6,"Iron Bar"],[2,"Hard Leather"],[1,"Padded Cloth"],[1,"Vault Shard"]]},
   {n:"Paladin's Platebody",pl:4,st:"Armour Bench",cat:"Armour",kind:"Melee armour · recipe from Takla Kara vault",mats:[[12,"Iron Bar"],[8,"Hard Leather"],[3,"Vault Shard"],[2,"Padded Cloth"]]},
-  {n:"Paladin Platelegs",pl:4,st:"Armour Bench",cat:"Armour",kind:"Melee armour",mats:[[6,"Iron Bar"],[6,"Hard Leather"],[2,"Padded Cloth"],[2,"Vault Shard"]]},
+  {n:"Paladin's Platelegs",pl:4,st:"Armour Bench",cat:"Armour",kind:"Melee armour",mats:[[6,"Iron Bar"],[6,"Hard Leather"],[2,"Padded Cloth"],[2,"Vault Shard"]]},
   {n:"Adamant Helmet",pl:7,st:"Armour Bench",cat:"Armour",kind:"Melee armour",mats:[[4,"Adamant Bar"],[4,"Scorch Leather"],[1,"Desert Cloth"],[1,"Refined Obsidian"],[1,"Gypsum Wax"],[1,"Garou Weave"]]},
   {n:"Adamant Med Helm",pl:7,st:"Armour Bench",cat:"Armour",kind:"Melee armour",mats:[[4,"Adamant Bar"],[4,"Scorch Leather"],[1,"Desert Cloth"],[1,"Refined Obsidian"],[1,"Gypsum Wax"],[1,"Garou Weave"]],note:"Same cost as the full helm, but the recipe only comes with the Deluxe Edition."},
   {n:"Adamant Platebody",pl:7,st:"Armour Bench",cat:"Armour",kind:"Melee armour",mats:[[10,"Adamant Bar"],[8,"Scorch Leather"],[3,"Desert Cloth"],[3,"Refined Obsidian"],[3,"Gypsum Wax"],[3,"Garou Weave"]]},
@@ -956,12 +958,11 @@ const RECIPES = [
   {n:"Obsidian Chest",pl:7,st:"Armour Bench",cat:"Armour",kind:"Melee armour",mats:[[18,"Refined Obsidian"],[14,"Scorch Leather"]]},
   {n:"Obsidian Legs",pl:7,st:"Armour Bench",cat:"Armour",kind:"Melee armour",mats:[[14,"Refined Obsidian"],[10,"Scorch Leather"]],note:"The obsidian set skips the usual cloth and wax entirely — only two materials, both from the sands."},
   {n:"Red Dragon Chest",pl:7,st:"Armour Bench",cat:"Armour",kind:"Ranged armour",mats:[[12,"Red Dragonhide Leather"],[4,"Scorch Leather"],[4,"Adamant Bar"],[3,"Refined Obsidian"],[3,"Gypsum Wax"],[6,"Garou Weave"]]},
-  {n:"Red Dragon Legs",pl:7,st:"Armour Bench",cat:"Armour",kind:"Ranged armour",mats:[[6,"Red Dragonhide Leather"],[4,"Scorch Leather"],[2,"Adamant Bar"],[2,"Refined Obsidian"]],note:"Partial — the gypsum wax and garou weave amounts were cut off in the source, so this undercounts. Verify at the bench."},
-  {n:"Red Dragon Helmet",pl:7,st:"Armour Bench",cat:"Armour",kind:"Ranged armour",mats:[],note:"Recipe not sourced yet. The other pieces suggest roughly a third of the chest cost."},
+  {n:"Red Dragon Legs",pl:7,st:"Armour Bench",cat:"Armour",kind:"Ranged armour",mats:[[6,"Red Dragonhide Leather"],[4,"Scorch Leather"],[4,"Garou Weave"],[2,"Adamant Bar"],[2,"Refined Obsidian"],[2,"Gypsum Wax"]]},
+  {n:"Red Dragon Helmet",pl:7,st:"Armour Bench",cat:"Armour",kind:"Ranged armour",mats:[[4,"Red Dragonhide Leather"],[2,"Scorch Leather"],[2,"Garou Weave"],[1,"Adamant Bar"],[1,"Refined Obsidian"],[1,"Gypsum Wax"]]},
   {n:"Rune Helm",pl:8,st:"Armour Bench",cat:"Armour",kind:"Melee armour",mats:[[3,"Rune Bar"],[3,"Black Dragon Leather"],[1,"Vis Cloth"],[1,"Harmonised Compound"],[1,"Draconic Vis Wax"]]},
   {n:"Rune Platebody",pl:8,st:"Armour Bench",cat:"Armour",kind:"Melee armour",mats:[[6,"Rune Bar"],[6,"Black Dragon Leather"],[2,"Vis Cloth"],[2,"Harmonised Compound"],[2,"Draconic Vis Wax"]],note:"Cut in the 25 September patch — it was 10 bar and 8 leather before."},
   {n:"Rune Platelegs",pl:8,st:"Armour Bench",cat:"Armour",kind:"Melee armour",mats:[[4,"Rune Bar"],[4,"Black Dragon Leather"],[1,"Vis Cloth"],[1,"Harmonised Compound"],[1,"Draconic Vis Wax"]]},
-  {n:"Rune Shield",pl:8,st:"Blacksmith's Bench",cat:"Shield",kind:"Shield",mats:[[6,"Rune Bar"],[3,"Black Dragon Leather"],[1,"Draconic Vis Wax"]],note:"Unlocked by tanning black dragon leather — no vis cloth needed."},
   {n:"Black Dragonhide Coif",pl:8,st:"Armour Bench",cat:"Armour",kind:"Ranged armour",mats:[[4,"Black Dragon Leather"],[2,"Vis Cloth"],[1,"Rune Bar"],[1,"Harmonised Compound"],[1,"Draconic Vis Wax"]]},
   {n:"Black Dragonhide Body",pl:8,st:"Armour Bench",cat:"Armour",kind:"Ranged armour",mats:[[12,"Black Dragon Leather"],[4,"Vis Cloth"],[3,"Rune Bar"],[2,"Harmonised Compound"],[2,"Draconic Vis Wax"]]},
   {n:"Black Dragonhide Chaps",pl:8,st:"Armour Bench",cat:"Armour",kind:"Ranged armour",mats:[[6,"Black Dragon Leather"],[2,"Vis Cloth"],[1,"Rune Bar"],[1,"Harmonised Compound"],[1,"Draconic Vis Wax"]]},
@@ -969,9 +970,8 @@ const RECIPES = [
   {n:"Rune Dagger",pl:8,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[[8,"Rune Bar"],[6,"Harmonised Compound"],[3,"Vis Fibres"],[2,"Draconic Vis Wax"]],note:"Pre-patch figures."},
   {n:"Magic Longbow",pl:8,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[16,"Magic Logs"],[8,"Vis Fibres"],[4,"Rune Bar"],[4,"Dragonstone"],[4,"Draconic Vis Wax"]],note:"Pre-patch figures."},
   {n:"Magic Shortbow",pl:8,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[10,"Magic Logs"],[4,"Vis Fibres"],[2,"Rune Bar"],[2,"Dragonstone"],[2,"Draconic Vis Wax"]],note:"Pre-patch figures."},
-  {n:"Rune Crossbow",pl:8,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[16,"Magic Logs"],[6,"Vis Fibres"],[2,"Draconic Vis Wax"],[1,"Rune Crossbow Limbs"],[1,"Dragonstone"]],note:"Pre-patch figures."},
-  {n:"Rune Logging Axe",pl:8,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[5,"Rune Bar"],[6,"Yew Logs"],[2,"Vis Fibres"]],note:"Cut in the 25 September patch from 8 bar and 4 fibres."},
-  {n:"Rune Watering Can",pl:8,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[4,"Rune Bar"],[1,"Vis Cloth"]]},
+  {n:"Rune Crossbow",pl:8,st:"Fletching Bench",cat:"Ranged",kind:"Weapon",mats:[[12,"Magic Logs"],[4,"Vis Fibres"],[1,"Rune Crossbow Limbs"],[1,"Dragonstone"],[1,"Draconic Vis Wax"]]},
+  {n:"Rune Watering Can",pl:8,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[4,"Rune Bar"],[1,"Vis Cloth"]],note:"Every other can is 6 bar and 2 cloth; the 25 September patch cut this one from 6 and 2 to 4 and 1."},
   {n:"Rune Scimitar",pl:8,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[[6,"Rune Bar"],[3,"Black Dragon Leather"],[1,"Vis Cloth"],[1,"Draconic Vis Wax"]],note:"Post-patch. Was 10 bar, 5 leather, 2 cloth and 2 wax before 25 September."},
   {n:"Rune Greatsword",pl:8,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[[8,"Rune Bar"],[3,"Black Dragon Leather"],[2,"Vis Fibres"],[2,"Draconic Vis Wax"]],note:"Post-patch. Was 12 bar, 5 leather, 4 fibres and 4 wax."},
   {n:"Rune Arrow",pl:8,st:"Fletching Bench",cat:"Ranged",kind:"Ammunition",out:33,mats:[[1,"Rune Bar"],[1,"Magic Logs"],[1,"Feathers"]],note:"One craft yields 33."},
@@ -984,10 +984,10 @@ const RECIPES = [
   {n:"Maple Wand",pl:6,st:"Mystic Forge",cat:"Magic",kind:"Wand",mats:[[8,"Maple Logs"],[8,"Infernal Fragments"],[3,"Mithril Bar"],[2,"Glass Vessel"]]},
   {n:"Master Wand",pl:7,st:"Mystic Forge",cat:"Magic",kind:"Wand",mats:[[8,"Yew Logs"],[3,"Refined Obsidian"],[2,"Infinity Cloth"],[2,"Dragonstone"],[2,"Gypsum Wax"]]},
   {n:"Ancestral Wand",pl:8,st:"Mystic Forge",cat:"Magic",kind:"Wand · Artisan 20",mats:[[8,"Magic Logs"],[5,"Harmonised Compound"],[2,"Vis Cloth"],[2,"Dragonstone"],[2,"Draconic Vis Wax"]]},
-  {n:"Kuldra's Wrath",pl:8,st:"Mystic Forge",cat:"Magic",kind:"Wand",mats:[],note:"The top wand. Recipe not sourced — likely a raid drop rather than a bench craft."},
-  {n:"Dragon Scimitar",pl:9,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[],note:"Power level 9, above the rune tier. No ingredient cost listed anywhere — acquisition route unconfirmed."},
+  {n:"Kuldra's Wrath",pl:8,st:"Mystic Forge",cat:"Magic",kind:"Wand",mats:[],obtain:"Kuldra, via the Queenslayer\u2019s Reward Pack \u2014 confirmed in game. The top wand"},
+  {n:"Dragon Scimitar",pl:9,st:"Blacksmith's Bench",cat:"Melee",kind:"Weapon",mats:[],obtain:"Kuldra, via the Queenslayer\u2019s Reward Pack. Nothing at power level 9 is craftable"},
   {n:"Grieving Moon Staff",pl:3,st:"Mystic Forge",cat:"Magic",kind:"Staff",mats:[[8,"Oak Logs"],[6,"Antler"],[2,"Animal Bone"]]},
-  {n:"Rune Crossbow Limbs",pl:8,st:"Blacksmith's Bench",cat:"Component",kind:"Limbs",mats:[],note:"Quantity not sourced — the adamant limbs take 2 bars."},
+  {n:"Rune Crossbow Limbs",pl:8,st:"Blacksmith's Bench",cat:"Component",kind:"Limbs",mats:[[1,"Rune Bar"]],note:"The only limbs that take one bar rather than two."},
   {n:"Ancestral Hat",pl:8,st:"Armour Bench",cat:"Armour",kind:"Magic armour",mats:[[1,"Vis Cloth"],[1,"Black Dragon Leather"],[1,"Rune Bar"],[1,"Harmonised Compound"],[1,"Draconic Vis Wax"]]},
   {n:"Ancestral Robes",pl:8,st:"Armour Bench",cat:"Armour",kind:"Magic armour",mats:[[4,"Vis Cloth"],[2,"Black Dragon Leather"],[2,"Rune Bar"],[2,"Harmonised Compound"],[2,"Draconic Vis Wax"]],note:"Cut by a third in the 25 September patch. These are the post-patch figures."},
   {n:"Ancestral Leggings",pl:8,st:"Armour Bench",cat:"Armour",kind:"Magic armour",mats:[[2,"Vis Cloth"],[2,"Black Dragon Leather"],[2,"Rune Bar"],[2,"Harmonised Compound"],[2,"Draconic Vis Wax"]],note:"Post-patch figures, confirmed on the wiki."},
@@ -1000,6 +1000,13 @@ const RECIPES = [
   {n:"Infinity Robe Hat",pl:7,st:"Armour Bench",cat:"Armour",kind:"Magic armour",mats:[[2,"Infinity Cloth"],[2,"Garou Weave"],[1,"Scorch Leather"],[1,"Adamant Bar"],[1,"Refined Obsidian"],[1,"Gypsum Wax"]]},
   {n:"Infinity Robe Body",pl:7,st:"Armour Bench",cat:"Armour",kind:"Magic armour",mats:[[6,"Infinity Cloth"],[6,"Garou Weave"],[3,"Scorch Leather"],[3,"Adamant Bar"],[3,"Refined Obsidian"],[3,"Gypsum Wax"]]},
   {n:"Infinity Robe Legs",pl:7,st:"Armour Bench",cat:"Armour",kind:"Magic armour",mats:[[4,"Infinity Cloth"],[4,"Garou Weave"],[2,"Scorch Leather"],[2,"Adamant Bar"],[2,"Refined Obsidian"],[2,"Gypsum Wax"]]},
+  {n:"Mithril Platebody",pl:6,st:"Armour Bench",cat:"Armour",kind:"Melee armour · Artisan 100",mats:[[10,"Mithril Bar"],[6,"Cursed Leather"],[4,"Mystic Cloth"],[3,"Demonic Oil"]]},
+  {n:"Mithril Platelegs",pl:6,st:"Armour Bench",cat:"Armour",kind:"Melee armour · Artisan 100",mats:[[6,"Mithril Bar"],[4,"Cursed Leather"],[2,"Mystic Cloth"],[2,"Demonic Oil"]]},
+  {n:"Dragon Full Helm",pl:9,st:"Not crafted",cat:"Armour",kind:"Melee armour",mats:[],obtain:"Kuldra in the Scorned Wilderness raid, via the Queenslayer\u2019s Reward Pack. Nothing else drops it"},
+  {n:"Dragon Med Helm",pl:9,st:"Not crafted",cat:"Armour",kind:"Melee armour",mats:[],obtain:"Kuldra, via the Queenslayer\u2019s Reward Pack. Same stats as the full helm, different look"},
+  {n:"Dragon Platebody",pl:9,st:"Not crafted",cat:"Armour",kind:"Melee armour",mats:[],obtain:"Kuldra, via the Queenslayer\u2019s Reward Pack at 5/29. The best chest in the game at 68 melee defence"},
+  {n:"Dragon Platelegs",pl:9,st:"Not crafted",cat:"Armour",kind:"Melee armour",mats:[],obtain:"Kuldra in the Scorned Wilderness raid, via the Queenslayer\u2019s Reward Pack. Nothing else drops it"},
+  {n:"Dragon Crossbow",pl:9,st:"Not crafted",cat:"Ranged",kind:"Weapon",mats:[],obtain:"Kuldra in the Scorned Wilderness raid, via the Queenslayer\u2019s Reward Pack. Nothing else drops it"},
   {n:"Mithril Helmet",pl:6,st:"Armour Bench",cat:"Armour",kind:"Melee armour",mats:[[4,"Cursed Leather"],[4,"Mithril Bar"],[1,"Mystic Cloth"],[1,"Demonic Oil"]]},
   {n:"Hard Leather Cowl",pl:3,st:"Armour Bench",cat:"Armour",kind:"Ranged armour",mats:[[4,"Hard Leather"],[2,"Fleece"],[1,"Bronze Bar"]]},
   {n:"Hard Leather Body",pl:3,st:"Armour Bench",cat:"Armour",kind:"Ranged armour",mats:[[10,"Hard Leather"],[4,"Fleece"],[2,"Bronze Bar"]]},
@@ -1010,16 +1017,70 @@ const RECIPES = [
   {n:"Wild Archer Cowl",pl:4,st:"Armour Bench",cat:"Armour",kind:"Ranged armour",mats:[[4,"Hard Leather"],[2,"Padded Cloth"],[2,"Gold Bar"],[1,"Vault Shard"]]},
   {n:"Wild Archer Body",pl:4,st:"Armour Bench",cat:"Armour",kind:"Ranged armour",mats:[[12,"Hard Leather"],[4,"Padded Cloth"],[4,"Gold Bar"],[3,"Vault Shard"]]},
   {n:"Wild Archer Chaps",pl:4,st:"Armour Bench",cat:"Armour",kind:"Ranged armour",mats:[[8,"Hard Leather"],[4,"Gold Bar"],[3,"Padded Cloth"],[2,"Vault Shard"]]},
-  {n:"Dark Mage Hood",pl:0,st:"Armour Bench",cat:"Armour",kind:"Magic armour",mats:[[3,"Padded Cloth"],[2,"Hard Leather"],[1,"Vault Shard"],[1,"Silver Bar"]]},
-  {n:"Dark Mage Robes",pl:0,st:"Armour Bench",cat:"Armour",kind:"Magic armour",mats:[[8,"Padded Cloth"],[8,"Hard Leather"],[4,"Silver Bar"],[3,"Vault Shard"]]},
-  {n:"Dark Mage Robe Legs",pl:0,st:"Armour Bench",cat:"Armour",kind:"Magic armour",mats:[[6,"Padded Cloth"],[4,"Hard Leather"],[2,"Vault Shard"],[2,"Silver Bar"]]},
-  {n:"Dragonkin Mage Hood",pl:0,st:"Armour Bench",cat:"Armour",kind:"Magic armour",mats:[[3,"Hard Leather"],[2,"Padded Cloth"],[1,"Vault Shard"],[1,"Gold Bar"]]},
-  {n:"Dragonkin Mage Robes",pl:0,st:"Armour Bench",cat:"Armour",kind:"Magic armour",mats:[[10,"Hard Leather"],[6,"Padded Cloth"],[4,"Gold Bar"],[3,"Vault Shard"]]},
-  {n:"Dragonkin Mage Robe Legs",pl:0,st:"Armour Bench",cat:"Armour",kind:"Magic armour",mats:[[6,"Iron Bar"],[6,"Hard Leather"],[2,"Padded Cloth"],[2,"Vault Shard"]]},
-  {n:"Iron Shield",pl:4,st:"Armour Bench",cat:"Shield",kind:"Shield",mats:[[8,"Iron Bar"],[4,"Vault Shard"],[4,"Hard Leather"]]},
-  {n:"Anti-dragon Shield",pl:4,st:"Armour Bench",cat:"Shield",kind:"Dragon Slayer reward",mats:[[12,"Blightwood"],[8,"Vault Shard"],[4,"Wild Anima"],[4,"Opal"],[4,"Hard Leather"],[1,"Vault Core"]]},
+  {n:"Dark Mage Hood",pl:4,st:"Armour Bench",cat:"Armour",kind:"Magic armour",mats:[[3,"Padded Cloth"],[2,"Hard Leather"],[1,"Vault Shard"],[1,"Silver Bar"]]},
+  {n:"Dark Mage Robes",pl:4,st:"Armour Bench",cat:"Armour",kind:"Magic armour",mats:[[8,"Padded Cloth"],[8,"Hard Leather"],[4,"Silver Bar"],[3,"Vault Shard"]]},
+  {n:"Dark Mage Robe Legs",pl:4,st:"Armour Bench",cat:"Armour",kind:"Magic armour",mats:[[6,"Padded Cloth"],[4,"Hard Leather"],[2,"Vault Shard"],[2,"Silver Bar"]]},
+  {n:"Dragonkin Mage Hood",pl:4,st:"Armour Bench",cat:"Armour",kind:"Magic armour",mats:[[3,"Hard Leather"],[2,"Padded Cloth"],[1,"Vault Shard"],[1,"Gold Bar"]]},
+  {n:"Dragonkin Mage Robes",pl:4,st:"Armour Bench",cat:"Armour",kind:"Magic armour",mats:[[10,"Hard Leather"],[6,"Padded Cloth"],[4,"Gold Bar"],[3,"Vault Shard"]]},
+  {n:"Dragonkin Mage Robe Legs",pl:4,st:"Armour Bench",cat:"Armour",kind:"Magic armour",mats:[[6,"Iron Bar"],[6,"Hard Leather"],[2,"Padded Cloth"],[2,"Vault Shard"]]},
+  {n:"Wooden Shield",pl:1,st:"Crafting Table",cat:"Shield",kind:"Shield",mats:[[10,"Ash Logs"]]},
+  {n:"Leather Shield",pl:2,st:"Crafting Table",cat:"Shield",kind:"Shield",mats:[[10,"Leather"],[6,"Animal Bone"]]},
+  {n:"Bronze Shield",pl:3,st:"Blacksmith's Bench",cat:"Shield",kind:"Shield",mats:[[8,"Bronze Bar"],[4,"Leather"]]},
+  {n:"Anti-Dragon Shield",pl:3,st:"Blacksmith's Bench",cat:"Shield",kind:"Shield",mats:[[12,"Blightwood"],[8,"Vault Shard"],[4,"Wild Anima"],[4,"Hard Leather"],[4,"Opal"],[1,"Vault Core"]],note:"Recipe is in the Whispering Swamp vault. Three later shields are built on top of a finished one."},
+  {n:"Iron Shield",pl:4,st:"Blacksmith's Bench",cat:"Shield",kind:"Shield",mats:[[8,"Iron Bar"],[4,"Hard Leather"],[4,"Vault Shard"]]},
+  {n:"Dragonblight Shield",pl:4,st:"Blacksmith's Bench",cat:"Shield",kind:"Shield",mats:[[12,"Vault Shard"],[1,"Draconic Visage"],[1,"Anti-Dragon Shield"],[1,"Vault Core"]],note:"Consumes a finished Anti-Dragon Shield."},
+  {n:"Steel Shield",pl:5,st:"Blacksmith's Bench",cat:"Shield",kind:"Shield",mats:[[10,"Steel Bar"],[6,"Vault Shard"],[4,"Draconic Leather"]]},
+  {n:"Fallen Hoplite's Aspis",pl:5,st:"Blacksmith's Bench",cat:"Shield",kind:"Shield",mats:[[12,"Undead Bone"],[10,"Steel Bar"],[6,"Vault Shard"],[4,"Draconic Leather"]],note:"Recipe is learned from the Skeletal Hoplite vestige."},
+  {n:"Dragoncurse Shield",pl:5,st:"Blacksmith's Bench",cat:"Shield",kind:"Shield",mats:[[45,"Vault Shard"],[1,"Undead Draconic Visage"],[1,"Anti-Dragon Shield"],[1,"Vault Core"]],note:"Reward from Withering Heights. 45 vault shards is the steepest shard cost in the game."},
+  {n:"Mithril Shield",pl:6,st:"Blacksmith's Bench",cat:"Shield",kind:"Shield",mats:[[18,"Infernal Fragments"],[10,"Mithril Bar"],[4,"Cursed Leather"]]},
+  {n:"Black Shield",pl:6,st:"Blacksmith's Bench",cat:"Shield",kind:"Shield",mats:[[10,"Black Metal Bar"],[4,"Cursed Leather"],[2,"Demonic Oil"]],note:"Recipe is learned from the Battle-Scarred Black Metal vestige."},
+  {n:"Adamant Shield",pl:7,st:"Blacksmith's Bench",cat:"Shield",kind:"Shield",mats:[[10,"Adamant Bar"],[4,"Scorch Leather"],[2,"Gypsum Wax"]]},
+  {n:"TokTz-Ket-Xil",pl:7,st:"Blacksmith's Bench",cat:"Shield",kind:"Shield",mats:[[10,"Refined Obsidian"],[4,"Scorch Leather"]],note:"Two materials only, like the rest of the obsidian line."},
+  {n:"Dragonfire Shield",pl:7,st:"Blacksmith's Bench",cat:"Shield",kind:"Shield",mats:[[12,"Vault Shard"],[1,"Smouldering Draconic Visage"],[1,"Anti-Dragon Shield"],[1,"Vault Core"]],note:"Consumes a finished Anti-Dragon Shield."},
+  {n:"Rune Shield",pl:8,st:"Blacksmith's Bench",cat:"Shield",kind:"Shield",mats:[[10,"Rune Bar"],[4,"Black Dragon Leather"],[2,"Draconic Vis Wax"]]},
+  {n:"Dragon Kiteshield",pl:9,st:"Not crafted",cat:"Shield",kind:"Shield",mats:[],obtain:"Reward from the Regicide quest"},
+  {n:"Coarse Net",pl:1,st:"Crafting Table",cat:"Fishing",kind:"Fishing gear",mats:[[2,"Coarse Thread"]],note:"The first thing you make. Crafting it starts Shrimp Catcher."},
+  {n:"Wool Net",pl:3,st:"Crafting Table",cat:"Fishing",kind:"Fishing gear",mats:[[2,"Wool Thread"]]},
+  {n:"Fine Net",pl:5,st:"Crafting Table",cat:"Fishing",kind:"Fishing gear",mats:[[2,"Fine Thread"]]},
+  {n:"Mystic Net",pl:6,st:"Crafting Table",cat:"Fishing",kind:"Fishing gear",mats:[[2,"Mystic Thread"]]},
+  {n:"Desert Net",pl:7,st:"Crafting Table",cat:"Fishing",kind:"Fishing gear",mats:[[2,"Desert Thread"]]},
+  {n:"Ash Rod",pl:1,st:"Crafting Table",cat:"Fishing",kind:"Fishing gear",mats:[[1,"Ash Logs"],[1,"Coarse Thread"]],note:"Needs Fishing 3. The only rod with no bar."},
+  {n:"Oak Rod",pl:3,st:"Crafting Table",cat:"Fishing",kind:"Fishing gear",mats:[[1,"Oak Logs"],[1,"Wool Thread"],[1,"Bronze Bar"]]},
+  {n:"Willow Rod",pl:5,st:"Crafting Table",cat:"Fishing",kind:"Fishing gear",mats:[[1,"Willow Logs"],[1,"Fine Thread"],[1,"Steel Bar"]]},
+  {n:"Maple Rod",pl:6,st:"Crafting Table",cat:"Fishing",kind:"Fishing gear",mats:[[1,"Maple Logs"],[1,"Mystic Thread"],[1,"Mithril Bar"]]},
+  {n:"Yew Rod",pl:7,st:"Crafting Table",cat:"Fishing",kind:"Fishing gear",mats:[[1,"Yew Logs"],[1,"Desert Thread"],[1,"Adamant Bar"]]},
+  {n:"Infernal Rod",pl:8,st:"Not crafted",cat:"Fishing",kind:"Fishing gear",mats:[],obtain:"A skill unlock rather than a bench craft"},
+  {n:"Fishing Cape",pl:0,st:"Not crafted",cat:"Fishing",kind:"Fishing gear",mats:[],obtain:"Fishing 99, with a trimmed variant"},
+  {n:"Stone Pickaxe",pl:1,st:"Crafting Table",cat:"Tool",kind:"Tool",mats:[[8,"Stone"],[6,"Ash Logs"]]},
+  {n:"Bone Pickaxe",pl:2,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[8,"Animal Bone"],[6,"Ash Logs"],[4,"Leather"]]},
+  {n:"Bronze Pickaxe",pl:3,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[5,"Bronze Bar"],[4,"Oak Logs"],[2,"Leather"]]},
   {n:"Iron Pickaxe",pl:4,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[6,"Iron Bar"],[4,"Blightwood"],[2,"Hard Leather"]]},
-  {n:"Ascension Core (PL 4–6)",pl:6,st:"Mystic Forge",cat:"Processing",kind:"Endgame",mats:[[99,"Ascension Shard"]],note:"Plus 10 bars, 10 leather and 10 cloth of the tier you are ascending to — those vary per tier, so they are not listed as fixed ingredients. PL7 cores come from the Nightmare Crucible instead."}
+  {n:"Steel Pickaxe",pl:5,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[8,"Steel Bar"],[6,"Willow Logs"],[4,"Draconic Leather"]]},
+  {n:"Mithril Pickaxe",pl:6,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[8,"Mithril Bar"],[6,"Maple Logs"],[4,"Cursed Leather"]]},
+  {n:"Adamant Pickaxe",pl:7,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[8,"Adamant Bar"],[6,"Yew Logs"],[4,"Scorch Leather"],[1,"Gypsum Wax"]]},
+  {n:"Rune Pickaxe",pl:8,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[5,"Rune Bar"],[4,"Magic Logs"],[3,"Black Dragon Leather"],[1,"Draconic Vis Wax"]]},
+  {n:"Stone Logging Axe",pl:1,st:"Crafting Table",cat:"Tool",kind:"Tool",mats:[[8,"Ash Logs"],[6,"Stone"]]},
+  {n:"Bronze Logging Axe",pl:3,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[5,"Bronze Bar"],[4,"Ash Logs"],[2,"Coarse Thread"]]},
+  {n:"Iron Logging Axe",pl:4,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[6,"Iron Bar"],[4,"Oak Logs"],[2,"Wool Thread"]]},
+  {n:"Steel Logging Axe",pl:5,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[8,"Steel Bar"],[6,"Willow Logs"],[4,"Fine Thread"]]},
+  {n:"Mithril Logging Axe",pl:6,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[8,"Mithril Bar"],[6,"Willow Logs"],[4,"Mystic Thread"]]},
+  {n:"Adamant Logging Axe",pl:7,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[8,"Adamant Bar"],[6,"Maple Logs"],[4,"Desert Thread"]]},
+  {n:"Rune Logging Axe",pl:8,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[5,"Rune Bar"],[6,"Yew Logs"],[2,"Vis Fibres"]]},
+  {n:"Wooden Spade",pl:1,st:"Crafting Table",cat:"Tool",kind:"Tool",mats:[[6,"Ash Logs"],[1,"Coarse Thread"]]},
+  {n:"Bronze Spade",pl:3,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[4,"Bronze Bar"],[2,"Oak Logs"],[2,"Leather"]]},
+  {n:"Steel Spade",pl:5,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[4,"Steel Bar"],[2,"Willow Logs"],[2,"Draconic Leather"]]},
+  {n:"Undead Spade",pl:5,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[4,"Steel Bar"],[4,"Undead Bone"],[2,"Willow Logs"],[2,"Draconic Leather"]],note:"Recipe is the Rotten Farming Tool vestige, 1/20 from buried chests in Fellhollow."},
+  {n:"Adamant Spade",pl:7,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[4,"Adamant Bar"],[2,"Yew Logs"],[2,"Scorch Leather"],[1,"Gypsum Wax"]]},
+  {n:"Rune Spade",pl:8,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[3,"Rune Bar"],[2,"Magic Logs"],[2,"Black Dragon Leather"],[1,"Draconic Vis Wax"]]},
+  {n:"Iron Secateurs",pl:4,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[2,"Iron Bar"],[2,"Padded Cloth"]]},
+  {n:"Wooden Watering Can",pl:1,st:"Crafting Table",cat:"Tool",kind:"Tool",mats:[[4,"Ash Logs"],[1,"Coarse Thread"]]},
+  {n:"Bronze Watering Can",pl:3,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[6,"Bronze Bar"],[2,"Wool Cloth"]]},
+  {n:"Steel Watering Can",pl:5,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[6,"Steel Bar"],[2,"Padded Cloth"]]},
+  {n:"Adamant Watering Can",pl:7,st:"Blacksmith's Bench",cat:"Tool",kind:"Tool",mats:[[6,"Adamant Bar"],[2,"Desert Cloth"]]},
+  {n:"Compost Bucket",pl:0,st:"Crafting Table",cat:"Tool",kind:"Tool",mats:[[5,"Ash Logs"]],note:"Needs Farming 10 to unlock."},
+  {n:"Ascension Core (PL 4–6)",pl:6,st:"Mystic Forge",cat:"Processing",kind:"Endgame",mats:[[99,"Ascension Shard"]],note:"Plus 10 bars, 10 leather and 10 cloth of the tier you are ascending to, which vary per tier."},
+  {n:"Ascension Core (PL 7)",pl:7,st:"Not crafted",cat:"Processing",kind:"Endgame",mats:[],obtain:"The Nightmare Crucible"},
+  {n:"Ascension Core (PL 8)",pl:8,st:"Not crafted",cat:"Processing",kind:"Endgame",mats:[],obtain:"Black dragons in the Scorned Wilderness"}
 ];
 
 const MATERIALS = [
@@ -1028,7 +1089,6 @@ const MATERIALS = [
   {n:"Iron Ore",g:"Ore",w:"Stormtouched Highlands and Fellhollow",r:"Ghornfell / Fellhollow",x:"3 ore per Iron Bar. Feeds both the iron and steel tiers, so it reaches more weapon recipes than any other ore. 1/20 Jade."},
   {n:"Silver Ore",g:"Ore",w:"Mainly the Bloodblight Swamp; also Dowdun Reach",r:"Ghornfell",x:"Jewellery metal. One swamp run covers silver and gold together."},
   {n:"Gold Ore",g:"Ore",w:"Mainly the Bloodblight Swamp; also Dowdun Reach",r:"Ghornfell",x:"The Sapphire source. Late-tier only — gold and silver appear in three weapons between them."},
-  {n:"Blurite Ore",g:"Ore",w:"Ghornfell",r:"Ghornfell",x:"Used for the Blurite crossbow line."},
   {n:"Mithril Ore",g:"Ore",w:"All over Dowdun Reach, including the underground areas",r:"Dowdun Reach",x:"3 ore + 3 coal per Mithril Bar."},
   {n:"Adamantite Ore",g:"Ore",w:"All over the Umbral Sands",r:"Umbral Sands",x:"3 ore + 3 coal per Adamant Bar. 1/20 Dragonstone."},
   {n:"Coal",g:"Ore",w:"Fellhollow, Dowdun Reach and Umbral Sands",r:"Fellhollow+",x:"3 per Blast Furnace smelt, for steel, mithril, adamant and black metal. Never shows on the weapon's own recipe screen — the bar eats it. Stockpile it."},
@@ -1067,18 +1127,22 @@ const MATERIALS = [
   {n:"Black Dragon Hide",g:"Hide",w:"Black dragons in the Scorned Wilderness",r:"Scorned Wilderness",x:"Tans with dragon blood and ground rune essence into Black Dragon Leather."},
   {n:"Magic Logs",g:"Wood",w:"Magic trees",r:"Scorned Wilderness",x:"The PL8 bow line runs on them — 16 for a Magic Longbow."},
   {n:"Wheat",g:"Potion",w:"Farming plots",r:"Brynmoor+",x:"Grinds one-for-one into a Bag of Flour, and goes straight into the crunchies and the sponge cake."},
-  {n:"Blue Dragon Scale",g:"Hide",w:"Blue dragons",r:"Dowdun Reach",x:"Tans into Blue Dragon Leather."},
+  {n:"Blue Dragon Hide",g:"Hide",w:"Blue dragons",r:"Dowdun Reach",x:"One hide tans into two Blue Dragon Leather."},
   {n:"Blue Dragon Leather",g:"Hide",w:"Advanced Tannery, from blue dragon scale",r:"Dowdun Reach",x:"Sits between draconic and cursed in the leather ladder."},
   {n:"Necrotic Bonemeal",g:"Component",w:"Grindstone, from undead bone",r:"Fellhollow",x:"A processed material the app had missed entirely."},
   {n:"Fire Oil",g:"Component",w:"Brewing Cauldron",r:"—",x:"Recipe not sourced yet."},
-  {n:"Black Metal Bar",g:"Ore",w:"Blast Furnace, from black metal scraps",r:"Dowdun Reach",x:"The bar the Black Sword is built from."},
-  {n:"Blurite Bar",g:"Ore",w:"Furnace, from blurite ore",r:"Ghornfell",x:"Feeds the blurite crossbow limbs."},
+  {n:"Black Metal Bar",g:"Ore",w:"Blast Furnace \u2014 6 Black Metal Scraps + 3 Coal",r:"Dowdun Reach",x:"Ten go into the Black Sword. The only bar with an uneven scrap-to-coal ratio."},
   {n:"Glass Vessel",g:"Component",w:"Jeweler's Bench — 1 Molten Glass",r:"—",x:"The Maple Wand wants two, and the higher-tier potions are brewed in them."},
   {n:"Molten Glass",g:"Component",w:"Blast Furnace — 3 Ground Limestone + 3 Ground Sandstone, at Artisan 60",r:"—",x:"Every glass item comes through here. Made at the Blast Furnace, not the Kiln."},
+  {n:"Stone",g:"Component",w:"Rocks and boulders, every region",r:"All regions",x:"The earliest tool material. Stone pickaxe and axe are built from it."},
   {n:"Limestone",g:"Component",w:"Mined, mainly in Dowdun Reach",r:"Dowdun Reach",x:"Grinds one-for-one into Ground Limestone, the expensive half of glass."},
   {n:"Sandstone",g:"Component",w:"Mined in Ghornfell, Dowdun Reach and the Umbral Sands",r:"Ghornfell+",x:"One sandstone grinds into five Ground Sandstone."},
   {n:"Granite",g:"Component",w:"Mined in Ghornfell and Dowdun Reach",r:"Ghornfell / Dowdun Reach",x:"Ground down for the Attack Potion."},
   {n:"Clay",g:"Component",w:"Clay deposits, most regions",r:"All regions",x:"Ground for potions, and thrown into clay vessels at the Pottery Wheel."},
+  {n:"Draconic Visage",g:"Component",w:"Dragon drop",r:"Ghornfell+",x:"Turns a finished Anti-Dragon Shield into the Dragonblight Shield."},
+  {n:"Undead Draconic Visage",g:"Component",w:"Undead dragon drop",r:"Fellhollow",x:"For the Dragoncurse Shield, alongside 45 vault shards."},
+  {n:"Smouldering Draconic Visage",g:"Component",w:"Red dragon drop",r:"Umbral Sands",x:"For the Dragonfire Shield."},
+  {n:"Naptha",g:"Component",w:"Dropped by enemies \u2014 which ones is not recorded",r:"All regions",x:"Not gathered and not crafted. Half of Fire Oil, with a coarse thread."},
   {n:"Feathers",g:"Component",w:"Birds",r:"All regions",x:"Fletching staple — arrows, bolts and feather bait all want them."},
   {n:"Swamp Thread",g:"Fibre",w:"Spinning Wheel, from swamp weed",r:"Brynmoor / Fellhollow",x:"The thread the blightwood line runs on."},
   {n:"Luminite",g:"Ore",w:"Mined in the Scorned Wilderness",r:"Scorned Wilderness",x:"Three per rune bar, alongside three rune ore. It replaces coal at this tier rather than adding to it."},
@@ -1145,7 +1209,7 @@ const MATERIALS = [
   {n:"Refined Obsidian",g:"Component",w:"Blast Furnace — 9 Ground Obsidian",r:"Umbral Sands",x:"The obsidian armour set runs on it, and it needs no cloth or wax."},
   {n:"Shimmerscale Powder",g:"Component",w:"Grindstone — 1 Kalphite Wing makes 2",r:"Umbral Sands",x:"36 for the Master's Staff."},
   {n:"Kalphite Shell",g:"Component",w:"Tannery — 3 Kalphite Shell Fragments + 1 Acrid Adhesive, or whole from the Kalphite Queen",r:"Umbral Sands",x:"The adamant and sceptre recipes."},
-  {n:"Black Metal Scraps",g:"Component",w:"Black knights",r:"Dowdun Reach",x:"60 scraps for the Black Sword; smelt into black metal bars."},
+  {n:"Black Metal Scraps",g:"Component",w:"Dropped by black knights — there is no ore to mine",r:"Dowdun Reach",x:"Six scraps and three coal per bar, the only uneven ratio in the game. Ten bars for the Black Sword, so 60 scraps."},
   {n:"Sacred Oil",g:"Component",w:"Fellhollow",r:"Fellhollow",x:"Six each for the Splitbark and Necromancer's staves."},
   {n:"Demonic Oil",g:"Component",w:"Demons",r:"Dowdun Reach",x:"Two for the Black Sword."},
   {n:"Poison Ichor",g:"Component",w:"Poisonous creatures",r:"Brynmoor / Fellhollow",x:"Six for the Abyssal Whip."},
@@ -2603,6 +2667,34 @@ buildMapFilters(); drawMap(); buildQuests(); buildRecipes(); buildMaterials(); b
   // steps: in-order objectives. rw: rewards. wiki: page-name override.
   // Anything not listed here has no sourced walkthrough and says so.
   const WALK = {
+    "Shrimp Catcher":{rw:"Tome of Fishing Vol. 1, 3\u00d7 Feather Bait",steps:[
+      "Craft a coarse net at the crafting table \u2014 that alone starts the quest.",
+      "Speak to the Wise Old Man in Bramblemead Valley and pick the second option.",
+      "Trawl a net fishing spot with the net equipped until Fishing 3, which unlocks rods.",
+      "Craft an ash rod from 1 ash log and 1 coarse thread, and turn your shrimp into bait, one each.",
+      "Equip both rod and bait, then cast at a rod spot. Strafe left and right to tire the fish \u2014 blue bar is winning, red costs more stamina.",
+      "Reel in a sardine and take it back to the Wise Old Man."]},
+    "The Great Body Robbery":{rw:"Zombie Arm, recipe for the Lightning Rod",steps:[
+      "Speak to Doctor Fenkenstrain in his tower in the Bloodblight Swamp, by the garou camp at the bloodwood tree.",
+      "Dig up three graves with a bronze or better spade. Human torso near the abyssal demon between three trees; goblin legs just north of it; garou arms by the northern swamp entrance.",
+      "Return, place the parts on the examination table, and examine them.",
+      "Bring him one weak antipoison, one weak focused attack and one weak lumberjack potion.",
+      "Take the empty vial and get struck by lightning \u2014 a thunderstorm anywhere, or wait in the Stormtouched Highlands.",
+      "Put his head on the body, then use the lightning on the pylon. It goes wrong, and he pays you to leave."]},
+    "Mirror, Mirror":{rw:"Ulv\u2019s Longbow and its recipe",steps:[
+      "Speak to the mirror west of Emberwood Village, past the green dragon.",
+      "Get dragon blood from that green dragon or from dragon wolves.",
+      "Find the bedraggled spellbook inside the destroyed windmill in Emberwood Village.",
+      "Find Edna\u2019s skeleton in Dragon\u2019s Run \u2014 a crumbling stone house by a willow grove and a rundown gateway, skeleton in the right-hand corner.",
+      "Bring Edna 1 silver bar, 1 fine thread, 1 sacred oil and 6 soul fragments for the spectral silver thread.",
+      "Hand all three reagents to the mirror, then light six memorial candles: one beside the mirror; south-south-east of Velgar\u2019s Rise by the lake with floating rune essence; north-east of the garou castle on a cliff edge; behind a tall rock west of the bloodwood garou camp; by the giant swamp tree on the third island west of the Whispering Swamp vault; and atop the cliff south of Crasorak Kara.",
+      "Return to the mirror. The ritual takes a week of game time, but you are paid up front."]},
+    "Wanted!":{rw:"Corroded Jewellery vestige, which unlocks the unholy symbol",steps:[
+      "Speak to Vannaka by the tent in front of The Library, just inside Dowdun Reach. Three Black Knights, three journals, any order.",
+      "Rat Master Skrexis \u2014 south-west through The Library, kill the lesser blue dragon guarding The Menagerie, then take the lower path. He is on a ledge with his hellrats. Journal on a rock behind him, left of the statue.",
+      "Houndmaster Rexiton \u2014 lower floors of the forward building in The Garrison. You fight him and the whole pack at once. Journal on the table in the central kennel.",
+      "Summoner Flament \u2014 south to The Cathedral crypts, nearest nodestone is The Lake. Delrom hits hard. Journal on the plinth under the demon gargoyle.",
+      "Take all three back to Vannaka. The tamers\u2019 secret was simply treating the creatures kindly."]},
     "First Steps":{rw:"Tome of Runecrafting",steps:[
       "Speak to the Wise Old Man inside the Temple.",
       "Speak to Doric just outside, and work through Getting Started.",
@@ -3515,6 +3607,66 @@ buildMapFilters(); drawMap(); buildQuests(); buildRecipes(); buildMaterials(); b
   const put=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
 
   const CHANGES=[
+    {v:"10.2",d:"2026-10-08",items:[
+      "Fishing gear is craftable data now, not prose. Five nets at 2 thread of their tier, five rods at 1 log, 1 thread and 1 bar \u2014 except the ash rod, which takes no bar. Fine Net, Oak Rod and Willow Rod were missing entirely.",
+      "Infernal Rod and Fishing Cape listed as unlocks rather than crafts.",
+      "Silver Bar, Harmonised Compound and Black Dragon Leather confirmed in game, so their caveats are gone. No recipe in the app is flagged as unsourced any more.",
+      "Red Dragon Legs completed with 4 Garou Weave and 2 Gypsum Wax.",
+      "Dark Mage and Dragonkin Mage sets set to power level 4.",
+      "Walkthroughs added for Shrimp Catcher, The Great Body Robbery, Mirror Mirror and Wanted! \u2014 every quest in the app now has one."]},
+    {v:"10.1",d:"2026-10-07",items:[
+      "All four remaining watering cans and the compost bucket sourced from the wiki. Every can is 6 bar and 2 cloth of its tier, except Rune, which the 25 September patch cut to 4 and 1.",
+      "Compost Bucket is 5 Ash Logs at the Crafting Table, behind Farming 10.",
+      "Nothing in the tool list is awaiting quantities any more."]},
+    {v:"10.0",d:"2026-10-07",items:[
+      "Pickaxes and logging axes filled in across all eight tiers, from in-game values.",
+      "Seven tools added that were missing entirely: the spade ladder from Wooden through Rune, and Iron Secateurs.",
+      "The Undead Spade is unlocked by the Rotten Farming Tool vestige, which ties the Finds list to a recipe for the first time.",
+      "Added plain Stone as a material \u2014 the two starter tools need it and nothing referenced it before."]},
+    {v:"9.9",d:"2026-10-07",items:[
+      "All sixteen shields added from in-game values, up from five. Wooden, Leather, Bronze, Iron, Steel, Mithril, Black, Adamant, TokTz-Ket-Xil and Rune, plus the three Anti-Dragon upgrades and the Fallen Hoplite\u2019s Aspis.",
+      "Rune Shield was wrong \u2014 10 bar, 4 leather and 2 wax, not 6, 3 and 1.",
+      "Anti-Dragon Shield moved to power level 3 and the Blacksmith\u2019s Bench; it was listed at 4 on the Armour Bench.",
+      "Dragon Kiteshield is a Regicide reward, not a Kuldra drop, and the Dragon Shield I had listed does not exist \u2014 removed.",
+      "Dragonblight, Dragoncurse and Dragonfire each consume a finished Anti-Dragon Shield, so that one is worth keeping rather than replacing.",
+      "The full tool ladder is listed \u2014 eight pickaxes, seven logging axes, five watering cans and the compost bucket \u2014 with quantities still to come.",
+      "Ascension Core 7 comes from the Nightmare Crucible and 8 from black dragons; neither is crafted."]},
+    {v:"9.8",d:"2026-10-07",items:[
+      "Gold, Rune and Black Metal Bar moved into Processing with the rest. They were filed as Components, which is why Rune Bar looked missing from that list.",
+      "Silver Bar added as a recipe \u2014 it had a materials entry but nothing to craft. The 3-ore ratio is inferred from the other plain bars and is flagged as unconfirmed."]},
+    {v:"9.7",d:"2026-10-07",items:[
+      "Red Dragon Helmet filled in from the bench: 4 Red Dragonhide Leather, 2 Scorch Leather, 2 Garou Weave, 1 Adamant Bar, 1 Refined Obsidian, 1 Gypsum Wax.",
+      "That settles it — the Red Dragon set is craftable, so the doubt I had attached to it is gone."]},
+    {v:"9.6",d:"2026-09-19",items:[
+      "Black Metal Scraps marked as drop-only — there is no ore to mine, which is likely why its bar ratio is the odd one out.",
+      "Naptha marked as an enemy drop rather than an unknown. The specific enemy is not recorded anywhere, so that part stays open."]},
+    {v:"9.5",d:"2026-09-19",items:[
+      "All seven remaining component gaps filled from in-game values. Nothing craftable is unsourced any more.",
+      "Black Sword rewritten to bench form: 10 Black Metal Bar, 5 Cursed Leather, 4 Mystic Thread, 2 Demonic Oil. The old expanded figures were arithmetically correct, just written as raw materials.",
+      "Black Metal Bar is 6 scraps to 3 coal, the only bar without an even split.",
+      "Blue Dragon Leather yields two per hide, which is why the bench shows 0.5.",
+      "Renamed Blue Dragon Scale to Blue Dragon Hide to match the game, and added Naptha."]},
+    {v:"9.4",d:"2026-09-19",items:[
+      "Every crossbow and every set of limbs rebuilt from in-game values. Limbs take 2 bars of their tier, except rune which takes 1.",
+      "Two limbs and two crossbows were missing entirely: Black and Mithril limbs, Shadow Crossbow and Mithril Crossbow.",
+      "Corrected a consistent fault in the old source: it listed raw fibre where the bench wants thread. Wool Thread not Fleece, Swamp Thread not Swamp Weed, Fine Thread not Corpse Cotton, Desert Thread not Desert Weed.",
+      "Steel Crossbow loses the 6 Vault Shard it never needed; Rune Crossbow drops to 12 magic logs, 4 vis fibres and 1 wax.",
+      "Blurite removed — ore, bar, limbs and crossbow. It is no longer in the game."]},
+    {v:"9.3",d:"2026-09-19",items:[
+      "Kuldra\u2019s Wrath confirmed as a Kuldra drop rather than a bench craft, and moved out of the unsourced list.",
+      "Every Kuldra drop now names her as the only source, so there is no ambiguity about whether something can be made instead."]},
+    {v:"9.2",d:"2026-09-19",items:[
+      "Mithril Platebody and Platelegs added — the set was complete in game and I had only the helmet.",
+      "The whole power level 9 Dragon tier added as drops: full helm, med helm, platebody, platelegs, kiteshield, shield and crossbow, all from the Queenslayer\u2019s Reward Pack. None of it is craftable.",
+      "Items that are obtained rather than crafted now say so in gold, instead of being flagged amber as a missing recipe. Those are two different things and the app was treating them the same."]},
+    {v:"9.1",d:"2026-09-19",items:[
+      "Renamed Paladin Platelegs to Paladin\u2019s Platelegs, matching the helm and platebody. It was the only piece in the set without the apostrophe, which broke set grouping and would have missed a wiki import."]},
+    {v:"9.0",d:"2026-09-19",items:[
+      "Export everything and Restore everything on the Share tab. Browser storage is tied to the address, so opening the app from a file and from a web address gave two separate sets with no way to move between them short of three separate exports.",
+      "One file now carries pins, routes, marker types, quests, finds, planner contents, stock, imported wiki data and language choice."]},
+    {v:"8.9",d:"2026-09-19",items:[
+      "When the app is hosted rather than opened as a file, it looks for ashenfall-data.json beside itself and loads it on first run. Nobody you share it with has to import anything.",
+      "It only does this once, so it never overwrites data someone has imported themselves, and it is skipped entirely for a local file."]},
     {v:"8.8",d:"2026-09-19",items:[
       "New Help tab: a short tour of every feature, in English and Swedish, following the language button.",
       "Separate Swedish setup guide for sharing, covering both iPhone and desktop."]},
@@ -4175,8 +4327,15 @@ buildMapFilters(); drawMap(); buildQuests(); buildRecipes(); buildMaterials(); b
         const p=el('p','small muted'); p.style.margin='8px 0 0'; p.textContent=rec.note; row.appendChild(p);
       }
       if(!rec.mats.length){
-        const p=el('p','tiny'); p.style.cssText='margin:6px 0 0;color:#d8c25a';
-        p.textContent='Recipe not sourced yet — the wiki page has it.'; row.appendChild(p);
+        const p=el('p','tiny');
+        if(rec.obtain){
+          p.style.cssText='margin:6px 0 0;color:var(--ember)';
+          p.textContent='Not crafted — '+rec.obtain+'.';
+        } else {
+          p.style.cssText='margin:6px 0 0;color:#d8c25a';
+          p.textContent='Recipe not sourced yet — the wiki page has it.';
+        }
+        row.appendChild(p);
       }
       const a=document.createElement('a');
       a.href=url(name.replace(/ \(.*\)$/,'')); a.target='_blank'; a.rel='noopener';
@@ -6614,6 +6773,97 @@ buildMapFilters(); drawMap(); buildQuests(); buildRecipes(); buildMaterials(); b
   if(lang) lang.addEventListener('click',()=>setTimeout(()=>{ btn.textContent = sv()? 'Hjälp' : 'Help'; render(); },0));
 
   render();
+})();
+</script>
+<script>
+/* =========================================================
+   When hosted, pick up a data file sitting beside the page
+   so nobody has to import anything by hand.
+   ========================================================= */
+(function(){
+  if(location.protocol==='file:') return;              // no origin, no fetch
+  if(typeof fetch!=='function') return;
+  try{ if(localStorage.getItem('dw.autodata')) return; }catch(e){ return; }
+
+  fetch('ashenfall-data.json',{cache:'no-cache'})
+    .then(r=>r.ok? r.json() : null)
+    .then(d=>{
+      if(!d) return;
+      const keep=(key,store,list,ls)=>{
+        if(!d[key]) return 0;
+        const rows=Array.isArray(d[key])? d[key] : Object.values(d[key]);
+        const m={}; rows.forEach(i=>{ if(i&&i.n) m[String(i.n).toLowerCase().trim()]=i; });
+        if(!Object.keys(m).length) return 0;
+        window[store]=Object.assign(window[store]||{}, m);
+        window[list]=Object.values(window[store]);
+        try{ localStorage.setItem(ls, JSON.stringify(window[store])); }catch(e){}
+        return Object.keys(m).length;
+      };
+      const n = keep('items','ITEMINFO','ITEMINFO_LIST','dw.iteminfo')
+              + keep('sources','SRCINFO','SRCINFO_LIST','dw.sources')
+              + keep('shops','SHOPINFO','SHOPINFO_LIST','dw.shops')
+              + keep('npcs','NPCINFO','NPCINFO_LIST','dw.npcs')
+              + keep('perks','PERKINFO','PERKINFO_LIST','dw.perks');
+      if(!n) return;
+      try{ localStorage.setItem('dw.autodata','1'); }catch(e){}
+      if(window.buildMaterials) window.buildMaterials();
+      const s=document.getElementById('dataStatus');
+      if(s) s.textContent='Loaded '+n+' entries from the data file beside this page.';
+    })
+    .catch(()=>{});                                     // no file there, carry on
+})();
+</script>
+<script>
+/* =========================================================
+   Move everything between browsers in one file
+   ========================================================= */
+(function(){
+  const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+  const sec=document.getElementById('tab-party');
+  if(!sec) return;
+
+  const panel=el('div','panel'); panel.style.marginTop='12px';
+  panel.appendChild(el('h3',null,'Move to another browser'));
+  const p=el('p','small muted'); p.style.margin='6px 0 0';
+  p.textContent='Everything is stored per browser and per address, so opening the app from a file and from a web address gives you two separate sets. This moves the lot in one go — pins, routes, marker types, quests, finds, planner, stock, imported wiki data and your language choice.';
+  panel.appendChild(p);
+
+  const bar=el('div'); bar.style.cssText='display:flex;gap:8px;flex-wrap:wrap;margin-top:12px';
+  const out=el('button','btn primary','Export everything');
+  const inLab=el('label','btn','Restore everything'); inLab.style.cursor='pointer';
+  const inp=document.createElement('input'); inp.type='file'; inp.accept='application/json'; inp.style.display='none';
+  inLab.appendChild(inp);
+  bar.appendChild(out); bar.appendChild(inLab); panel.appendChild(bar);
+  const msg=el('p','small'); msg.style.margin='10px 0 0'; panel.appendChild(msg);
+
+  const keys=()=>{ const k=[]; for(let i=0;i<localStorage.length;i++){ const n=localStorage.key(i); if(n&&n.startsWith('dw.')) k.push(n); } return k; };
+
+  out.addEventListener('click',()=>{
+    const bundle={app:'ashenfall-companion',kind:'everything',at:new Date().toISOString(),store:{}};
+    keys().forEach(k=>{ try{ bundle.store[k]=localStorage.getItem(k); }catch(e){} });
+    const n=Object.keys(bundle.store).length;
+    const a=document.createElement('a');
+    a.href=URL.createObjectURL(new Blob([JSON.stringify(bundle)],{type:'application/json'}));
+    a.download='ashenfall-everything.json'; a.click(); URL.revokeObjectURL(a.href);
+    msg.textContent='Exported '+n+' stored items. Open the app in the other browser and press Restore there.';
+  });
+
+  inp.addEventListener('change',e=>{
+    const f=e.target.files[0]; if(!f) return;
+    const rd=new FileReader();
+    rd.onload=()=>{
+      try{
+        const d=JSON.parse(rd.result);
+        if(d.kind!=='everything'||!d.store) throw new Error('not a full backup');
+        let n=0;
+        Object.keys(d.store).forEach(k=>{ try{ localStorage.setItem(k,d.store[k]); n++; }catch(err){} });
+        msg.textContent='Restored '+n+' stored items. Reload the page to see it all.';
+      }catch(err){ msg.textContent='That is not a full backup file ('+err.message+').'; }
+    };
+    rd.readAsText(f);
+  });
+
+  sec.appendChild(panel);
 })();
 </script>
 </body>
